@@ -38,6 +38,8 @@ $this->url->addRewrite(new Simple\Rewrite($this->config));
 		
 		// Language
 		$code = '';
+
+        $this->load->controller('extension/module/progroman/city_manager/startup');
 		
 		$this->load->model('localisation/language');
 		

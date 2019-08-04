@@ -1,0 +1,127 @@
+08.07.2019 02:02:37 [INFO] Not Russia or Region is not selected:  0
+08.07.2019 02:02:47 [INFO] Not Russia or Region is not selected:  0
+15.07.2019 23:19:11 [INFO] Zone: 46, Country: 176
+15.07.2019 23:19:11 [INFO] Calc geozone: 3
+15.07.2019 23:19:11 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+15.07.2019 23:19:11 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+15.07.2019 23:19:11 [ERROR] Call ListCities failed: Нет доступа
+15.07.2019 23:19:11 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+15.07.2019 23:19:11 [ERROR] Call CourierListCities failed: Нет доступа
+15.07.2019 23:19:11 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+15.07.2019 23:19:11 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+15.07.2019 23:19:11 [ERROR] Call ZipCheck failed: Нет доступа
+15.07.2019 23:19:15 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
+15.07.2019 23:19:15 [ERROR] Call ListPoints failed: Нет доступа
+15.07.2019 23:19:42 [INFO] Zone: 46, Country: 176
+15.07.2019 23:19:42 [INFO] Calc geozone: 3
+15.07.2019 23:19:42 [INFO] Call API: http://api.boxberry.de/json.php?Zip=190000&method=ZipCheck&token=test_token
+15.07.2019 23:19:42 [ERROR] Call ZipCheck failed: Нет доступа
+15.07.2019 23:19:42 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+15.07.2019 23:19:42 [ERROR] Call ListCities failed: Нет доступа
+15.07.2019 23:19:42 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+15.07.2019 23:19:42 [ERROR] Call CourierListCities failed: Нет доступа
+15.07.2019 23:19:42 [INFO] Empty CourierListCities. Try to calculate via Zip: 190000
+15.07.2019 23:19:42 [INFO] Call API: http://api.boxberry.de/json.php?Zip=190000&method=ZipCheck&token=test_token
+15.07.2019 23:19:43 [ERROR] Call ZipCheck failed: Нет доступа
+15.07.2019 23:19:49 [INFO] Zone: 46, Country: 176
+15.07.2019 23:19:49 [INFO] Calc geozone: 3
+15.07.2019 23:19:49 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+15.07.2019 23:19:49 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+15.07.2019 23:19:49 [ERROR] Call ListCities failed: Нет доступа
+15.07.2019 23:19:49 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+15.07.2019 23:19:49 [ERROR] Call CourierListCities failed: Нет доступа
+15.07.2019 23:19:49 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+15.07.2019 23:19:49 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+15.07.2019 23:19:49 [ERROR] Call ZipCheck failed: Нет доступа
+15.07.2019 23:20:56 [INFO] Zone: 46, Country: 176
+15.07.2019 23:20:56 [INFO] Calc geozone: 3
+15.07.2019 23:20:56 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+15.07.2019 23:20:56 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+15.07.2019 23:20:56 [ERROR] Call ListCities failed: Нет доступа
+15.07.2019 23:20:56 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+15.07.2019 23:20:56 [ERROR] Call CourierListCities failed: Нет доступа
+15.07.2019 23:20:56 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+15.07.2019 23:20:56 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+15.07.2019 23:20:56 [ERROR] Call ZipCheck failed: Нет доступа
+23.07.2019 15:28:35 [INFO] Not Russia or Region is not selected:  0
+23.07.2019 15:29:00 [INFO] Not Russia or Region is not selected:  0
+23.07.2019 15:29:23 [INFO] Zone: 46, Country: 176
+23.07.2019 15:29:23 [INFO] Calc geozone: 3
+23.07.2019 15:29:23 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+23.07.2019 15:29:23 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+23.07.2019 15:29:23 [ERROR] Call ListCities failed: Нет доступа
+23.07.2019 15:29:23 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+23.07.2019 15:29:24 [ERROR] Call CourierListCities failed: Нет доступа
+23.07.2019 15:29:24 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+23.07.2019 15:29:24 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+23.07.2019 15:29:24 [ERROR] Call ZipCheck failed: Нет доступа
+23.07.2019 15:29:31 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
+23.07.2019 15:29:31 [ERROR] Call ListPoints failed: Нет доступа
+23.07.2019 15:29:41 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
+23.07.2019 15:29:41 [ERROR] Call ListPoints failed: Нет доступа
+23.07.2019 15:40:02 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
+23.07.2019 15:40:02 [ERROR] Call ListPoints failed: Нет доступа
+23.07.2019 19:30:43 [INFO] Zone: 46, Country: 176
+23.07.2019 19:30:43 [INFO] Calc geozone: 3
+23.07.2019 19:30:43 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+23.07.2019 19:30:43 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+23.07.2019 19:30:43 [ERROR] Call ListCities failed: Нет доступа
+23.07.2019 19:30:43 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+23.07.2019 19:30:43 [ERROR] Call CourierListCities failed: Нет доступа
+23.07.2019 19:30:43 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+23.07.2019 19:30:43 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+23.07.2019 19:30:43 [ERROR] Call ZipCheck failed: Нет доступа
+23.07.2019 20:10:52 [INFO] Zone: 46, Country: 176
+23.07.2019 20:10:52 [INFO] Calc geozone: 3
+23.07.2019 20:10:52 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+23.07.2019 20:10:52 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+23.07.2019 20:10:52 [ERROR] Call ListCities failed: Нет доступа
+23.07.2019 20:10:52 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+23.07.2019 20:10:52 [ERROR] Call CourierListCities failed: Нет доступа
+23.07.2019 20:10:52 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+23.07.2019 20:10:52 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+23.07.2019 20:10:52 [ERROR] Call ZipCheck failed: Нет доступа
+23.07.2019 20:10:57 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
+23.07.2019 20:10:57 [ERROR] Call ListPoints failed: Нет доступа
+23.07.2019 20:14:06 [INFO] Zone: 46, Country: 176
+23.07.2019 20:14:06 [INFO] Calc geozone: 3
+23.07.2019 20:14:06 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+23.07.2019 20:14:06 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+23.07.2019 20:14:06 [ERROR] Call ListCities failed: Нет доступа
+23.07.2019 20:14:06 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+23.07.2019 20:14:06 [ERROR] Call CourierListCities failed: Нет доступа
+23.07.2019 20:14:06 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+23.07.2019 20:14:06 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+23.07.2019 20:14:06 [ERROR] Call ZipCheck failed: Нет доступа
+23.07.2019 20:29:57 [INFO] Zone: 46, Country: 176
+23.07.2019 20:29:57 [INFO] Calc geozone: 3
+23.07.2019 20:29:57 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+23.07.2019 20:29:57 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+23.07.2019 20:29:57 [ERROR] Call ListCities failed: Нет доступа
+23.07.2019 20:29:57 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+23.07.2019 20:29:57 [ERROR] Call CourierListCities failed: Нет доступа
+23.07.2019 20:29:57 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+23.07.2019 20:29:57 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+23.07.2019 20:29:57 [ERROR] Call ZipCheck failed: Нет доступа
+23.07.2019 20:30:03 [INFO] Zone: 46, Country: 176
+23.07.2019 20:30:03 [INFO] Calc geozone: 3
+23.07.2019 20:30:03 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+23.07.2019 20:30:03 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+23.07.2019 20:30:03 [ERROR] Call ListCities failed: Нет доступа
+23.07.2019 20:30:03 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+23.07.2019 20:30:04 [ERROR] Call CourierListCities failed: Нет доступа
+23.07.2019 20:30:04 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+23.07.2019 20:30:04 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+23.07.2019 20:30:04 [ERROR] Call ZipCheck failed: Нет доступа
+25.07.2019 00:26:26 [INFO] Zone: 46, Country: 176
+25.07.2019 00:26:26 [INFO] Calc geozone: 3
+25.07.2019 00:26:26 [INFO] Empty or wrong ZIP:  KD will be charged as max zone 2
+25.07.2019 00:26:26 [INFO] Call API: http://api.boxberry.de/json.php?method=ListCities&token=test_token
+25.07.2019 00:26:26 [ERROR] Call ListCities failed: Нет доступа
+25.07.2019 00:26:26 [INFO] Call API: http://api.boxberry.de/json.php?method=CourierListCities&token=test_token
+25.07.2019 00:26:26 [ERROR] Call CourierListCities failed: Нет доступа
+25.07.2019 00:26:26 [INFO] Empty CourierListCities. Try to calculate via Zip: 
+25.07.2019 00:26:26 [INFO] Call API: http://api.boxberry.de/json.php?Zip=&method=ZipCheck&token=test_token
+25.07.2019 00:26:26 [ERROR] Call ZipCheck failed: Нет доступа
+25.07.2019 00:26:45 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
+25.07.2019 00:26:45 [ERROR] Call ListPoints failed: Нет доступа

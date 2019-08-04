@@ -23,12 +23,12 @@
       <ul>
         <li class="li_status">
           <a href="/support?blog_id=28">
-            Статус заказа по номеру
+            Узнать статус своего заказа
           </a>
         </li>
         <li>
           <a href="/support">
-            Центр поддержки boModa
+            Служба поддержки клиентов
           </a>
         </li>
         <li>
@@ -39,7 +39,7 @@
 
         <li>
           <a href="/support/table">
-            Таблица размеров
+            Как подобрать размер
           </a>
         </li>
 
@@ -91,9 +91,7 @@
         Способы оплаты:
       </div>
       <div class="footer_block_pay">
-        Олпачивайте свои покупки наличными при получении,
-        либо при оформлении заказа на сайте при помощи
-        банковских карт <img src="/img/pay1.png" /> и <img src="/img/pay2.png" />
+        <img style="width: 263px;" src="/img/pay2.png" />
       </div>
 
     </div>

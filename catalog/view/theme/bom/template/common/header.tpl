@@ -60,23 +60,13 @@
     <script src="/catalog/view/javascript/zoom.js"></script>
   <script src="/catalog/view/javascript/jquery.jcarousel-autoscroll.min.js"></script>
   <script type="text/javascript" src="https://hammerjs.github.io/dist/hammer.js"></script>
-	<script src="https://yastatic.net/share2/share.js" async="async"></script>
-	<script src="https://yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-	<script src="https://yastatic.net/share2/share.js" async="async"></script>
-	<script src="//api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-	<script type="text/javascript">
-		window.onload = function () {
-				jQuery("#user-city").text(ymaps.geolocation.city);
-				jQuery("#user-region").text(ymaps.geolocation.region);
-				jQuery("#user-country").text(ymaps.geolocation.country);
-		}
-	</script>
   <script src="/catalog/view/javascript/scripts.js"></script>
 
 </head>
 <body>
 
 <div class="m_main_header">
+
   <div class="m_main_menu" id="m_main_menu">
     <div class="m_menu m_row">
       <? include 'includes/m_main_menu.php'; ?>
@@ -139,8 +129,8 @@ if($_GET['menu']!='company') {
     <div class="top_title">
       Магазин одежды больших размеров
     </div>
-    <div class="top_city">
-			<div><b>Ваш город:</b> <span id="user-city"></span></div>
+    <div class="city">
+        <div class="prmn-cmngr" data-confirm="true"></div>
     </div>
   </div>
 </div>
@@ -199,7 +189,7 @@ if($_GET['menu']!='company') {
           </div>
         </div>
       <? } else { ?>
-        <a href="" class="btn_user" onclick="showDialog()"></a>
+        <a href="" class="btn_user"></a>
       <? } ?>
       <?if($logged) { ?>
         <a href="/wishlist" class="btn_fav"></a>

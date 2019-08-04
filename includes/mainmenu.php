@@ -290,11 +290,14 @@
             </ul>
         </div>
         <div class="main_menu_right">
+           <div class="callback">
+               <a class="btn_call call_link"><img style="width: 27px;vertical-align: top;" src="img/call.png" alt="Обратный звонок"></a>
+           </div>
             <div class="header_phone">
                 8 800 555 25 25
 
             </div>
-            <a class="btn_call call_link">→ <span>заказать звонок</span></a>
+
         </div>
         <div class="clear"></div>
     </div>

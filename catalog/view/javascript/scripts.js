@@ -1161,7 +1161,7 @@ jQuery(document).ready(function(){
 
 
 
-$('.btn_user,.call_link,.top_city,.addcart_form,.btn_table_size').click(function(){
+$('.btn_user,.call_link,.addcart_form,.btn_table_size').click(function(){
     $('body').css('overflow','hidden');
 });
 
@@ -1241,10 +1241,7 @@ $('.over_all,.close,.btn_return').click(function(){
     }
 
 
-    jQuery('.top_city').click(function(e){
-        e.preventDefault();
-        jQuery('#city_form,.over_all').show();
-    });
+
 
 
     jQuery('.get_status_btn').click(function(e){

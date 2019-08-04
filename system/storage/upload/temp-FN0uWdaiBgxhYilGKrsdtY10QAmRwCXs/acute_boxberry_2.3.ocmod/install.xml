@@ -1,0 +1,290 @@
+<modification>
+	<id>Acute Boxberry</id>
+        <code>Acute-Boxberry</code>
+        <name>Acute Boxberry shipping</name>
+	<author><![CDATA[tabook]]></author>
+	<version>2.4.0.4</version>
+    <file path="catalog/model/checkout/order.php">
+        <operation>
+            <search><![CDATA[
+            public function addOrder($data) {
+            ]]></search>
+            <add position="after"><![CDATA[
+        $integration_installed = false;
+        $kd_delivery = 0;
+        $pvz_id = 0;
+        $shipping_method = isset($this->session->data['shipping_method']['code']) ? $this->session->data['shipping_method']['code'] : '';
+        $shipping_method = explode('.', $shipping_method);
+        if (!empty($shipping_method[1]) && $shipping_method[0] == 'bb') {
+            $query = $this->db->query("SHOW TABLES LIKE '" . DB_PREFIX . "order_bb'");
+            $integration_installed = ($query->rows);
+            $kd_delivery = ($shipping_method[1] == 'kd') ? 1 : 0;
+            if ($shipping_method[1] == 'pickup') {
+                $data['shipping_address_1'] = (isset($this->session->data['bb_shipping_office_addr1']) ? $this->session->data['bb_shipping_office_addr1'] : '');
+                $data['shipping_address_2'] = (isset($this->session->data['bb_shipping_office_addr2']) ? $this->session->data['bb_shipping_office_addr2'] : '');
+            }
+            if (isset($this->session->data['bb_shipping_pvz_id'])) {
+                $pvz_id = $this->session->data['bb_shipping_pvz_id'];
+                if (!$integration_installed) {
+                    $data['shipping_address_2'] = '# '. $this->session->data['bb_shipping_pvz_id'];
+                }
+            }
+        }
+            ]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[
+            return $order_id;
+            ]]></search>
+            <add position="before"><![CDATA[
+        if ($integration_installed) {
+            $this->db->query("INSERT INTO `" . DB_PREFIX . "order_bb` SET order_id = '" . $order_id . "', pvz_id = '" . $pvz_id . "', kd_delivery = '" . $kd_delivery . "'");
+        }
+            ]]></add>
+        </operation>
+    </file>
+    <file path="catalog/view/theme/*/template/checkout/fastorder/fastorder.tpl">
+        <operation>
+            <search><![CDATA[<?php echo $quote['title']; ?> - <?php echo $quote['text']; ?>]]></search>
+            <add position="replace"><![CDATA[<?php echo $quote['title']; ?> - <?php echo $quote['text']; ?>
+            <?php if (isset($quote['bb_html'])) { ?>
+                        <br><?php echo $quote['bb_html']; ?>
+            <?php } ?>
+            ]]></add>
+        </operation>
+    </file>
+
+    <file path="catalog/view/theme/*/template/checkout/shipping_method.tpl">
+        <operation>
+            <search><![CDATA[<?php echo $quote['title']; ?> - <?php echo $quote['text']; ?>]]></search>
+            <add position="replace"><![CDATA[<?php echo $quote['title']; ?> - <?php echo $quote['text']; ?>
+            <?php if (isset($quote['bb_html'])) { ?>
+                        <br><?php echo $quote['bb_html']; ?>
+            <?php } ?>
+            ]]></add>
+        </operation>
+    </file>
+
+	<file path="catalog/language/*/checkout/simplecheckout.php">
+        <operation>
+            <search><![CDATA[
+            <?php
+            ]]></search>
+            <add position="after"><![CDATA[$_['error_bb_pvz'] = 'Выберите пункт выдачи Boxberry'; ]]></add>
+        </operation>
+	</file>
+	<file path="catalog/language/*/checkout/checkout.php">
+        <operation>
+            <search><![CDATA[
+            <?php
+            ]]></search>
+            <add position="after"><![CDATA[$_['error_bb_pvz'] = 'Выберите пункт выдачи Boxberry'; ]]></add>
+        </operation>
+	</file>
+	<file path="catalog/language/*/checkout/fastorder.php">
+        <operation>
+            <search><![CDATA[
+            <?php
+            ]]></search>
+            <add position="after"><![CDATA[$_['error_bb_pvz'] = 'Выберите пункт выдачи Boxberry'; ]]></add>
+        </operation>
+	</file>
+	<file path="catalog/controller/checkout/checkout.php">
+        <operation>
+            <search><![CDATA[
+            $this->document->setTitle($this->language->get('heading_title'));
+            ]]></search>
+            <add position="after"><![CDATA[
+$this->document->addScript('https://api-maps.yandex.ru/2.1/?lang=ru_RU');
+$this->document->addScript('catalog/view/javascript/bb.js');
+]]></add>
+        </operation>
+	</file>
+	<file path="catalog/controller/checkout/simplecheckout.php">
+        <operation>
+            <search><![CDATA[
+            $this->document->setTitle($this->language->get('heading_title'));
+            ]]></search>
+            <add position="after"><![CDATA[
+$this->document->addScript('https://api-maps.yandex.ru/2.1/?lang=ru_RU');
+$this->document->addScript('catalog/view/javascript/bb.js');
+]]></add>
+        </operation>
+	</file>
+	<file path="catalog/controller/checkout/fastorder/fastorder.php">
+        <operation>
+            <search><![CDATA[
+            $this->document->setTitle($this->language->get('heading_title'));
+            ]]></search>
+            <add position="after"><![CDATA[
+$this->document->addScript('https://api-maps.yandex.ru/2.1/?lang=ru_RU');
+$this->document->addScript('catalog/view/javascript/bb.js');
+]]></add>
+        </operation>
+	</file>
+
+
+
+<!--- Simple 4.5 + -->
+    <file path="catalog/controller/checkout/simplecheckout_shipping.php">
+        <operation>
+            <search><![CDATA[
+            $this->setOutputContent($this->renderPage('checkout/simplecheckout_shipping', $this->_templateData));
+            ]]></search>
+            <add position="before"><![CDATA[
+        if (!$this->simplecheckout->hasError('shipping') && isset($this->_templateData['shipping_method'])) {
+            if ($this->_templateData['shipping_method']['code'] == 'bb.pickup') {
+		if (!isset($this->session->data['bb_shipping_pvz_id'])) {
+                $this->_templateData['display_error']         = true;
+                $this->_templateData['has_error_shipping']    = true;
+                $this->_templateData['error_shipping']     = $this->language->get('error_bb_pvz');
+                $this->simplecheckout->addError('shipping');
+                }
+            }
+            if ($this->_templateData['shipping_method']['code'] == 'bb.kd') {
+		if (isset($this->session->data['bb_shipping_wrong_kd_index'])) {
+                $this->_templateData['display_error']         = true;
+                $this->_templateData['has_error_shipping']    = true;
+                $this->_templateData['error_shipping']     = $this->session->data['bb_shipping_wrong_kd_index'];
+                $this->simplecheckout->addError('shipping');
+                }
+            }
+        }
+            ]]></add>
+        </operation>
+    </file>
+<!--- Simple 4.1 - 4.4 -->
+    <file path="catalog/controller/checkout/simplecheckout_shipping.php">
+        <operation>
+            <search><![CDATA[
+            $this->simplecheckout->resetCurrentBlock();
+            ]]></search>
+            <add position="before"><![CDATA[
+        if (!$this->simplecheckout->hasError() && isset($this->_templateData['shipping_method'])) {
+            if ($this->_templateData['shipping_method']['code'] == 'bb.pickup') {
+		if (!isset($this->session->data['bb_shipping_pvz_id'])) {
+                $this->_templateData['display_error']         = true;
+                $this->_templateData['has_error_shipping']    = true;
+                $this->_templateData['error_shipping']     = $this->language->get('error_bb_pvz');
+                $this->simplecheckout->addError();
+                }
+            }
+            if ($this->_templateData['shipping_method']['code'] == 'bb.kd') {
+		if (isset($this->session->data['bb_shipping_wrong_kd_index'])) {
+                $this->_templateData['display_error']         = true;
+                $this->_templateData['has_error_shipping']    = true;
+                $this->_templateData['error_shipping']     = $this->session->data['bb_shipping_wrong_kd_index'];
+                $this->simplecheckout->addError();
+                }
+            }
+        }
+            ]]></add>
+        </operation>
+    </file>
+<!--- Simple 3.8.3 -->
+    <file path="catalog/controller/checkout/simplecheckout_shipping.php">
+        <operation>
+            <search><![CDATA[
+        if ($error) {
+            $this->simple->add_error('shipping');
+        }
+            ]]></search>
+            <add position="after"><![CDATA[
+        if (!$error && (!empty($this->data['shipping_method']))) {
+            if ($this->data['shipping_method']['code'] == 'bb.pickup') {
+		if (!isset($this->session->data['bb_shipping_pvz_id'])) {
+                   $error = true;
+                   $this->data['error_warning'] = $this->language->get('error_bb_pvz');
+                   $this->simple->add_error('shipping');
+                }
+            }
+            if ($this->data['shipping_method']['code'] == 'bb.kd') {
+		if (isset($this->session->data['bb_shipping_wrong_kd_index'])) {
+                   $error = true;
+                   $this->data['error_warning'] = $this->session->data['bb_shipping_wrong_kd_index'];
+                   $this->simple->add_error('shipping');
+                }
+            }
+        }
+            ]]></add>
+        </operation>
+    </file>
+
+	<file path="catalog/controller/checkout/shipping_method.php">
+		<operation>
+			<search><![CDATA[$this->session->data['comment'] = strip_tags($this->request->post['comment']);]]></search>
+			<add position="after"><![CDATA[  
+                if ($shipping[0] == 'bb' && $shipping[1] == 'pickup') {
+                    if (!isset($this->session->data['bb_shipping_pvz_id'])) {
+                        $json['error']['warning'] = $this->language->get('error_bb_pvz');
+                    }
+                }
+                if ($shipping[0] == 'bb' && $shipping[1] == 'kd') {
+                    if (isset($this->session->data['bb_shipping_wrong_kd_index'])) {
+                        $json['error']['warning'] = $this->session->data['bb_shipping_wrong_kd_index'];
+                    }
+                }
+			]]></add>
+		</operation>
+	</file>
+	<file path="catalog/view/theme/sstore/template/checkout/fastorder/fastorder.tpl">
+        <operation>
+            <search><![CDATA[type="radio" name="payment_method"]]></search>
+            <add position="replace"><![CDATA[name="payment_method" onchange="$.ajax({url: 'index.php?route=checkout/bb/fastorder_fix', data: $('#payment-method input[type=\'radio\']:checked, #payment-method input[type=\'hidden\']'), type: 'post', dataType: 'json', success: function(json) {updateBBTotal();} });" type="radio"]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[function shipping_save() {]]></search>
+            <add position="after"><![CDATA[
+var flagBBCallPaymentChange = 1;
+]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[success: function(data) {]]></search>
+            <add position="after"><![CDATA[
+if (typeof flagBBCallPaymentChange !== 'undefined') {
+          $('#payment-method').html( $( data ).find( '#payment-method > *' ) );
+
+}
+]]></add>
+        </operation>
+        <operation>
+            <search><![CDATA[$(document).delegate('#checkout-order', 'click', function() {]]></search>
+            <add position="before"><![CDATA[
+function updateBBTotal() {
+        $.ajax({
+          url: 'index.php?route=checkout/fastorder/fastorder',
+          dataType: 'html',
+          success: function(data) {
+            $('#shipping-method').html( $( data ).find( '#shipping-method > *' ) );
+            $('#checkout-cart').html( $( data ).find( '#checkout-cart > *' ) );
+            $('#payment-method').html( $( data ).find( '#payment-method > *' ) );
+            masked('#shipping-method', false);
+            masked('#checkout-cart', false);
+          },
+          error: function(xhr, ajaxOptions, thrownError) {
+            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+          }
+        });
+}
+]]></add>
+        </operation>
+	</file>
+	<file path="catalog/controller/checkout/fastorder/fastorder.php">
+		<operation>
+			<search><![CDATA[$this->session->data['shipping_method'] = $this->session->data['shipping_methods'][$shipping[0]]['quote'][$shipping[1]];]]></search>
+			<add position="after"><![CDATA[  
+                if ($shipping[0] == 'bb' && $shipping[1] == 'pickup') {
+                    if (!isset($this->session->data['bb_shipping_pvz_id'])) {
+                        $json['error']['warning'] = $this->language->get('error_bb_pvz');
+                    }
+                }
+                if ($shipping[0] == 'bb' && $shipping[1] == 'kd') {
+                    if (isset($this->session->data['bb_shipping_wrong_kd_index'])) {
+                        $json['error']['warning'] = $this->session->data['bb_shipping_wrong_kd_index'];
+                    }
+                }
+			]]></add>
+		</operation>
+	</file>
+
+</modification>
