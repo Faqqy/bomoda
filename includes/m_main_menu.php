@@ -11,6 +11,11 @@
         <div class="tabs__content active">
             <ul>
                 <li>
+                    <a href="/verh">
+                        <b>Верх</b>
+                    </a>
+                </li>
+                <li>
                     <a href="/platjya-sarafany">
                         Платья, сарафаны
                     </a>

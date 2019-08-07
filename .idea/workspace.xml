@@ -1,7 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="" />
+    <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bom.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleted-files.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cache/catalog/sl2-200x200.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/sl2-200x200.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cache/catalog/sl2-228x228.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/sl2-228x228.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cache/catalog/sl2-47x47.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/catalog/sl2-47x47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/cache/no_image-100x100.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/cache/no_image-100x100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/leftmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/leftmenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/m_main_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/m_main_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/mainmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/mainmenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1562230030" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.currency.1564939689" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1562230030" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cache/cache.language.1564939689" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/controller/common/column_left.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/controller/common/column_left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/controller/common/filemanager.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/controller/common/filemanager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/controller/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/controller/extension/installer.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/controller/extension/installer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/information_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/information_form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/product_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/product_form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/common/filemanager.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/common/filemanager.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/common/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/extension/extension.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/extension/extension.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/extension/module/html.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/extension/module/html.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/marketing/contact.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/marketing/contact.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/tool/backup.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/tool/backup.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/account/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/account/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/shipping_method.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/shipping_method.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/simplecheckout.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/simplecheckout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/simplecheckout_shipping.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/checkout/simplecheckout_shipping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/column_left.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/column_left.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/column_right.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/column_right.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/content_bottom.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/content_bottom.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/content_top.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/content_top.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/common/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/information/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/information/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/information/sitemap.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/information/sitemap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/startup/seo_url.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/startup/seo_url.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/startup/startup.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/startup/startup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/tool/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/tool/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/language/en-gb/checkout/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/language/en-gb/checkout/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/language/ru-ru/checkout/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/language/ru-ru/checkout/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/language/ru-ru/checkout/simplecheckout.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/language/ru-ru/checkout/simplecheckout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/model/checkout/order.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/model/checkout/order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/model/tool/simplegeo.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/model/tool/simplegeo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/bom/template/checkout/shipping_method.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/bom/template/checkout/shipping_method.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/bom/template/checkout/simplecheckout_shipping.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/bom/template/checkout/simplecheckout_shipping.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/bom/template/information/sitemap.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/bom/template/information/sitemap.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/checkout/shipping_method.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/checkout/shipping_method.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/checkout/simplecheckout_shipping.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/checkout/simplecheckout_shipping.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/information/sitemap.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/view/theme/default/template/information/sitemap.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/engine/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/engine/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/engine/loader.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/engine/loader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/library/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/library/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/library/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/library/language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/library/pagination.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/library/pagination.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/library/template/php.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/library/template/php.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/library/template/tiwg.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/library/template/tiwg.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +79,12 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Oml21Zq8sR5veUyiZ1uvpSt9Mp" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -45,10 +115,27 @@
       <workItem from="1564743804139" duration="615000" />
       <workItem from="1564869953682" duration="786000" />
       <workItem from="1564923591649" duration="11218000" />
+      <workItem from="1564946591832" duration="737000" />
+      <workItem from="1565028983949" duration="1030000" />
+      <workItem from="1565030120839" duration="4394000" />
+      <workItem from="1565194019884" duration="3914000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

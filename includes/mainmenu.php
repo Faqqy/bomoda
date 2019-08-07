@@ -7,9 +7,9 @@
                     <ul>
                         <div class="main_menu_row m_row">
                             <div class="main_menu_col">
-                                <li>
-                                    <a href="/platjya-sarafany">
-                                        Платья, сарафаны
+                                <li class="subcategory">
+                                    <a style="pointer-events: none;cursor: default;color: #000;" href="#">
+                                        <b>Верх</b>
                                     </a>
                                 </li>
                                 <li>
@@ -18,13 +18,13 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/yubki">
-                                        Юбки
+                                    <a href="/futbolki-majki">
+                                        Футболки, майки
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/bryuki-kapri-legginsy">
-                                        Брюки, капри, леггинсы
+                                    <a href="/svitery-dzhempery">
+                                        Свитеры, джемперы
                                     </a>
                                 </li>
                                 <li>
@@ -37,22 +37,15 @@
                                         Пиджаки, жакеты
                                     </a>
                                 </li>
+                                <li><b>Низ</b></li>
                                 <li>
-                                    <a href="/kostyumy">
-                                        Костюмы
-                                    </a>
-                                </li>
-
-                            </div>
-                            <div class="main_menu_col">
-                                <li>
-                                    <a href="/svitery-dzhempery">
-                                        Свитеры, джемперы
+                                    <a href="/yubki">
+                                        Юбки
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/futbolki-majki">
-                                        Футболки, майки
+                                    <a href="/bryuki-kapri-legginsy">
+                                        Брюки, капри, леггинсы
                                     </a>
                                 </li>
                                 <li>
@@ -65,11 +58,20 @@
                                         Шорты
                                     </a>
                                 </li>
+                                <li><b>Нарядная одежда</b></li>
                                 <li>
-                                    <a href="">
-                                        Верхняя одежда
+                                    <a href="/platjya-sarafany">
+                                        Платья, сарафаны
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="/kostyumy">
+                                        Костюмы
+                                    </a>
+                                </li>
+                            </div>
+                            <div class="main_menu_col">
+                                <li><b>Верхняя одежда</b></li>
                                 <li>
                                     <a href="/sportivnaya-odezhda">
                                         Спортивная одежда
@@ -291,11 +293,10 @@
         </div>
         <div class="main_menu_right">
            <div class="callback">
-               <a class="btn_call call_link"><img style="width: 27px;vertical-align: top;" src="img/call.png" alt="Обратный звонок"></a>
+               <a class="btn_call call_link"></a>
            </div>
             <div class="header_phone">
                 8 800 555 25 25
-
             </div>
 
         </div>
