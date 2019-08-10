@@ -8,9 +8,9 @@
                         <div class="main_menu_row m_row">
                             <div class="main_menu_col">
                                 <li class="subcategory">
-                                    <a style="pointer-events: none;cursor: default;color: #000;" href="#">
-                                        <b>Верх</b>
-                                    </a>
+
+                                        Верх
+
                                 </li>
                                 <li>
                                     <a href="/tuniki-bluzy-rubashki">
@@ -37,7 +37,7 @@
                                         Пиджаки, жакеты
                                     </a>
                                 </li>
-                                <li><b>Низ</b></li>
+                                <li class="subcategory">Низ</li>
                                 <li>
                                     <a href="/yubki">
                                         Юбки
@@ -45,7 +45,7 @@
                                 </li>
                                 <li>
                                     <a href="/bryuki-kapri-legginsy">
-                                        Брюки, капри, леггинсы
+                                        Брюки, капри
                                     </a>
                                 </li>
                                 <li>
@@ -58,7 +58,7 @@
                                         Шорты
                                     </a>
                                 </li>
-                                <li><b>Нарядная одежда</b></li>
+                                <li class="subcategory">Нарядная одежда</li>
                                 <li>
                                     <a href="/platjya-sarafany">
                                         Платья, сарафаны
@@ -71,57 +71,166 @@
                                 </li>
                             </div>
                             <div class="main_menu_col">
-                                <li><b>Верхняя одежда</b></li>
+                                <li class="subcategory">Верхняя одежда</li>
                                 <li>
-                                    <a href="/sportivnaya-odezhda">
-                                        Спортивная одежда
+                                    <a href="#">
+                                        Ветровки
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/odezhda-dlya-doma">
-                                        Одежда для дома
+                                        Безрукавки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/odezhda-dlya-doma">
+                                        Кожаные куртки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/odezhda-dlya-doma">
+                                        Пальто и плащи
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/odezhda-dlya-doma">
+                                        Пуховики
+                                    </a>
+                                </li>
+                                <li class="subcategory">Спортивная одежда</li>
+                                <li>
+                                    <a href="#">
+                                        Футболки, майки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Шорты спортивные
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Леггинсы
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Штаны спортивные
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Костюмы спортивные
+                                    </a>
+                                </li>
+                                <li class="subcategory">Пляжная одежда</li>
+                                <!--                                <li class="main_menu_actions">-->
+                                <!--                                    <a href="/rasprodazha">-->
+                                <!--                                        РАСПРОДАЖА-->
+                                <!--                                    </a>-->
+                                <!--                                </li>-->
+                                <!--                                <li class="main_menu_actions">-->
+                                <!--                                    <a href="/vse-do-1000">-->
+                                <!--                                        ВСЕ ДО 1000-->
+                                <!--                                    </a>-->
+                                <!--                                </li>-->
+                                <li>
+                                    <a href="#">
+                                        Купальники
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Накидки и туники
                                     </a>
                                 </li>
 
                             </div>
                             <div class="main_menu_col">
-                                <li>
-                                    <a href="/aksessuary">
-                                        Аксессуары
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/chulki-noski-kolgotki">
-                                        Чулки, носки, колготки
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/nizhnee-belje">
-                                        Нижнее бельё
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/kupalniki">
-                                        Купальники
-                                    </a>
-                                </li>
-                                <li class="main_menu_actions">
-                                    <a href="/novinki">
-                                        НОВИНКИ
-                                    </a>
-                                </li>
-                                <li class="main_menu_actions">
-                                    <a href="/rasprodazha">
-                                        РАСПРОДАЖА
-                                    </a>
-                                </li>
-                                <li class="main_menu_actions">
-                                    <a href="/vse-do-1000">
-                                        ВСЕ ДО 1000
-                                    </a>
-                                </li>
+                                <li class="subcategory">Нижнее белье</li>
+                                    <li>
+                                        <a href="#">
+                                            Бюстгальтеры
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Трусики
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Носки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Колготки, чулки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Корректирующее белье
+                                        </a>
+                                    </li>
+                                <li class="subcategory">Домашняя одежда</li>
+                                    <li>
+                                        <a href="#">
+                                            Ночные рубашки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Пижамы
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Домашние штаны
+                                        </a>
+                                    </li>
+                                <li class="subcategory">Аксессуары</li>
+                                    <li>
+                                        <a href="#">
+                                            Ремни
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Перчатки
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            Бижутерия
+                                        </a>
+                                    </li>
 
                             </div>
+
+                                <div class="banners_from-menu">
+                                    <div class="img-banners">
+
+                                            <a class="banner_img" href="#">
+
+                                                <img class="banner" type="image" src="img/sale-top/Для женщин 2.jpg" alt="Последний размер! Скидки до 70%">
+                                                <span class="banner_link" href="#">Подробнее</span>
+
+                                            </a>
+
+                                            <li class="subcategory" style="text-align: center;">Распродажа платьев до -70%</li>
+                                            <li style="text-align: center;">
+                                             <a style="text-decoration: none;color: #898989;font-size: 12px;" href="#">Торопитесь, пока есть размеры</a>
+                                            </li>
+
+
+
+                                    </div>
+
+
+                                </div>
+
+
                         </div>
                     </ul>
                 </li>
@@ -130,9 +239,20 @@
                     <ul>
                         <div class="main_menu_row m_row">
                             <div class="main_menu_col">
+                                <li class="subcategory">Верх</li>
+                                <li>
+                                    <a href="#">
+                                        Пиджаки
+                                    </a>
+                                </li>
                                 <li>
                                     <a href="/rubashki-sorochki">
                                         Рубашки, сорочки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/futbolki-polo-majki">
+                                        Футболки, поло, майки
                                     </a>
                                 </li>
                                 <li>
@@ -140,6 +260,12 @@
                                         Свитеры, джемперы
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="/tolstovki-olipijki">
+                                        Толстовки, олипийки
+                                    </a>
+                                </li>
+                                <li class="subcategory">Низ</li>
                                 <li>
                                     <a href="/m-dzhinsy">
                                         Джинсы
@@ -151,82 +277,166 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/pidzhaki-kostyumy">
-                                        Пиджаки, костюмы
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/naryadnaya-kollekciya">
-                                        Нарядная коллекция
-                                    </a>
-                                </li>
-                            </div>
-                            <div class="main_menu_col">
-                                <li>
-                                    <a href="/m-verhnyaya-odezhda">
-                                        Верхняя одежда
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/tolstovki-olipijki">
-                                        Толстовки, олипийки
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/futbolki-polo-majki">
-                                        Футболки, поло, майки
-                                    </a>
-                                </li>
-                                <li>
                                     <a href="/m-shorty">
                                         Шорты
                                     </a>
                                 </li>
+                                <li class="subcategory">Нижнее белье</li>
                                 <li>
-                                    <a href="/sportivnaya-odezhda">
-                                        Спортивная одежда
+                                    <a href="#">
+                                        Трусы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/m-odezhda-dlya-doma">
-                                        Одежда для дома
+                                    <a href="#">
+                                        Носки
                                     </a>
                                 </li>
-
+                                <li>
+                                    <a href="#">
+                                        Майки под одежду
+                                    </a>
+                                </li>
                             </div>
                             <div class="main_menu_col">
+                                <li class="subcategory">Нарядная одежда</li>
                                 <li>
-                                    <a href="/m-aksessuary">
-                                        Аксессуары
+                                    <a href="#">
+                                        Костюмы классические
                                     </a>
                                 </li>
+                                <li class="subcategory">Верхняя одежда</li>
+
                                 <li>
-                                    <a href="/nizhnee-belje-noski">
-                                        Нижнее бельё, носки
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="/plavki-plyazhnye-shorty">
-                                        Плавки, пляжные шорты
-                                    </a>
-                                </li>
-                                <li class="main_menu_actions">
-                                    <a href="/novinki1">
-                                        НОВИНКИ
-                                    </a>
-                                </li>
-                                <li class="main_menu_actions">
-                                    <a href="/rasprodazha1">
-                                        РАСПРОДАЖА
-                                    </a>
-                                </li>
-                                <li class="main_menu_actions">
-                                    <a href="/vse-do-10001">
-                                        ВСЕ ДО 1000
+                                    <a href="#">
+                                        Ветровки
                                     </a>
                                 </li>
 
+                                <li>
+                                    <a href="#">
+                                        Безрукавки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Кожаные куртки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Пальто и плащи
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Пуховики
+                                    </a>
+                                </li>
+                                <li class="subcategory">Домашняя одежда</li>
+                                <li>
+                                    <a href="#">
+                                        Пижамы
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Домашние штаны
+                                    </a>
+                                </li>
+                                <li class="subcategory">Пляжная одежда</li>
+                                <li>
+                                    <a href="#">
+                                        Плавки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Пляжные шорты
+                                    </a>
+                                </li>
                             </div>
+                            <div class="main_menu_col">
+                                <li class="subcategory">Спортивная одежда</li>
+                                <li>
+                                    <a href="#">
+                                        Футболки, майки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Шорты спортивные
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Штаны спортивные
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Костюмы спортивные
+                                    </a>
+                                </li>
+                                <li class="subcategory">Аксессуары</li>
+                                <li>
+                                    <a href="#">
+                                        Ремни
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Перчатки
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Галстуки
+                                    </a>
+                                </li>
+
+
+<!--                                <li class="main_menu_actions">-->
+<!--                                    <a href="/novinki1">-->
+<!--                                        НОВИНКИ-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                                <li class="main_menu_actions">-->
+<!--                                    <a href="/rasprodazha1">-->
+<!--                                        РАСПРОДАЖА-->
+<!--                                    </a>-->
+<!--                                </li>-->
+<!--                                <li class="main_menu_actions">-->
+<!--                                    <a href="/vse-do-10001">-->
+<!--                                        ВСЕ ДО 1000-->
+<!--                                    </a>-->
+<!--                                </li>-->
+
+                            </div>
+
+                            <div class="banners_from-menu">
+                                <div class="img-banners">
+
+                                    <a class="banner_img" href="#">
+
+                                        <img class="banner" type="image" src="img/sale-top/Для мужчин 1.jpg" alt="Рубашки со скидкой до 70%">
+                                        <span class="banner_link" href="#">Подробнее</span>
+
+                                    </a>
+
+                                    <li class="subcategory" style="text-align: center;">Рубашки со скидкой до 70%</li>
+                                    <li style="text-align: center;">
+                                        <a style="text-decoration: none;color: #898989;font-size: 12px;padding-bottom: 10px" href="#">Распродажа уходящих коллекций</a>
+                                    </li>
+
+
+
+                                </div>
+
+
+                            </div>
+
+
                         </div>
                     </ul>
                 </li>
@@ -235,56 +445,161 @@
                     <ul>
                         <div class="main_menu_row m_row">
                             <div class="main_menu_col">
+                                <li class="subcategory">Дезодоранты</li>
                                 <li>
-                                    <a href="/sredstvo-dlya-pohudeniya">
-                                        Средство для похудения
+                                    <a href="#">
+                                        Лечебные
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/blokatory-kalorij">
-                                        Блокаторы калорий
+                                    <a href="#">
+                                        Парфюмерные
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="anorektiki">
-                                        Аноректики
+                                    <a href="#">
+                                        Косметические
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/pischevye-dobavki">
-                                        Пищевые добавки
+                                    <a href="#">
+                                        Натуральные
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/vitaminnye-kompleksy">
-                                        Витаминные комплексы
+                                    <a href="#">
+                                        Для ног
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="#">
+                                        Для обуви
+                                    </a>
+                                </li>
+                                <li class="subcategory">Стельки для обуви</li>
+                                <li>
+                                    <a href="#">
+                                        При потливости
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Ортопедические
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Супинаторы, вставки
+                                    </a>
+                                </li>
+
                             </div>
                             <div class="main_menu_col">
+                                <li class="subcategory">Крема для тела</li>
                                 <li>
                                     <a href="/sredstvo-ot-rastyazhek">
-                                        Средство от растяжек
+                                        Против растяжек
                                     </a>
                                 </li>
                                 <li>
                                     <a href="/anticelyulitnye-sredstva">
-                                        Антицелюлитные средства
+                                        Антицеллюлитные
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Тонизирующие кожу
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Корректор фигуры
+                                    </a>
+                                </li>
+                                <li class="subcategory">Для похудения</li>
+                                <li>
+                                    <a href="#">
+                                        Жиросжигатели
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        L-карнитин
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Блокаторы калорий
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Подавители апетита
                                     </a>
                                 </li>
                             </div>
                             <div class="main_menu_col">
+                                <li class="subcategory">Полезные добавки</li>
                                 <li>
-                                    <a href="/dezodoranty-dlya-tela">
-                                        Дезодоранты для тела
+                                    <a href="#">
+                                        Витамины и минералы
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="/dezodoranty-dlya-nog">
-                                        Дезодоранты для ног
+                                    <a href="#">
+                                        Омега жиры
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Протеины
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        При больных суставах
+                                    </a>
+                                </li>
+                                <li class="subcategory">Диетическая еда</li>
+                                <li>
+                                    <a href="#">
+                                        Заменители сахара
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Соусы, сиропы, джемы
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Торты некалорийные
                                     </a>
                                 </li>
                             </div>
+
+                            <div class="banners_from-menu">
+                                <div class="img-banners">
+
+                                    <a class="banner_img" href="#">
+
+                                        <img class="banner" type="image" src="img/sale-top/Для красоты 2.jpg" alt="Мощный антиперспирант для ног">
+                                        <span class="banner_link" href="#">Подробнее</span>
+
+                                    </a>
+
+                                    <li class="subcategory" style="text-align: center;">Мощный антиперспирант для ног</li>
+                                    <li style="text-align: center;">
+                                        <a style="text-decoration: none;color: #898989;font-size: 12px;padding-bottom: 10px" href="#">Устранит потливость и запах ваших ног</a>
+                                    </li>
+
+
+
+                                </div>
+
+
+                            </div>
+
                         </div>
                     </ul>
                 </li>

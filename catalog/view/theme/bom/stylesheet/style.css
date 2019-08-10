@@ -325,23 +325,23 @@ div
 }
 .main_menu_row
 {
-	overflow:auto;
+	overflow:hidden;
 }
 .main_menu_col
 {
-	width:22%;
+	width:19%;
 	float:left;
 	padding-right:20px;
 }
 .main_menu_left>ul>li>ul>div>div>li
 {
-	line-height: 3.429;
+	line-height: 1.3;
 }
 .main_menu_left>ul>li>ul>div>div>li>a
 {
 	text-decoration:none;
 	color:#898989;
-	font-size:14px;
+	font-size:12px;
 }
 .main_menu_left>ul>li>ul>div>div>li>a:hover
 {
@@ -351,6 +351,64 @@ div
 {
 	color:#e36764;
 }
+
+.subcategory{
+	line-height: 1;
+	padding-top: 15px;
+	padding-bottom: 2px;
+	font-size: 13px;
+	font-weight: bold;
+	pointer-events: none;
+	cursor: default;
+	color: #222;
+}
+.banners_from-menu {
+	float: right;
+	width: 28%;
+	height: 250px;
+	margin-right: 80px;
+	margin-top: 17px;
+	margin-bottom: 70px;
+}
+
+.banner_link {
+	opacity: 0;
+	position: absolute;
+	right: 177px;
+	top: 160px;
+	padding: 10px 45px;
+	background-color: #fff;
+	color: #222;
+	text-transform: uppercase;
+	font-size: 14px;
+	transition: .25s ease-in-out;
+}
+
+
+.banner {
+	height: 256px;
+	width: 315px;
+	background: none;
+	opacity: 0.8;
+	transition: .15s ease-in-out;
+}
+
+.banner_img:hover .banner_link {
+	opacity: 1;
+}
+
+.banner_link:hover .banner {
+	opacity: 1;
+}
+
+.banner:hover {
+	opacity: 1;
+}
+
+
+
+
+
 
 .header_phone
 {
