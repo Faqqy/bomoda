@@ -130,7 +130,7 @@
 <div class="main_home_card">
     <div class="home_card m_row">
         <div class="home_card_cards">
-            <img style="width: 170px;" src="/img/cards.png" />
+            <img style="width: 150px;" src="/img/cards.png" />
         </div>
         <div class="home_card_title">
             ПОЛУЧИТЕ СКИДКУ 10% НА ЛЮБУЮ ВЕЩЬ
@@ -146,7 +146,7 @@
 <div class="clear"></div>
 <div class="home_about m_row">
     <div class="home_about_img">
-        <h1 style="display: inline-block;padding-top: 10px;padding-bottom: 10px;font-size: 17px;text-transform: uppercase;font-weight: bold;">Bomoda.ru &mdash; магазин одежды больших размеров</h1>
+        <h1 style="display: inline-block;padding-top: 30px;padding-bottom: 10px;font-size: 17px;text-transform: uppercase;font-weight: bold;">Bomoda.ru &mdash; магазин одежды больших размеров</h1>
     </div>
 		<div class="menu_footer">
 			<? include 'includes/mainmenu_footer.php';?>

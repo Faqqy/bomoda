@@ -584,12 +584,15 @@ div
 }
 .home_title span
 {
-	padding-left:50px;
-	padding-right:50px;
-	background:#fff;
-	text-transform:uppercase;
-	font-size:24px;
-	position:relative;
+	padding-left: 50px;
+	padding-right: 50px;
+	background: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	position: relative;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: #333333;
 }
 .home_title:before
 {
@@ -604,15 +607,15 @@ div
 }
 .home_slider
 {
-	margin-bottom:50px;
+	margin-bottom:94px;
 	margin-left:-15px;
 	margin-right:-15px;
 
 }
 .home_slider_block
 {
-	padding-left:15px;
-	padding-right:15px;
+	padding-left:7px;
+	padding-right:7px;
 }
 .home_slider_block_img
 {
@@ -681,7 +684,7 @@ div
 	padding-bottom:0;
 	font-size:14px;
 	color:#252525;
-	height: 240px;
+	height: 274px;
 }
 .main_footer
 {
@@ -699,25 +702,27 @@ div
 }
 .footer_block_title
 {
-	color:#252525;
-	font-size:16px;
-	margin-bottom:20px;
+	color: #252525;
+	font-size: 12px;
+	margin-bottom: 20px;
+	font-weight: bold;
 }
 .footer_block ul
 {
-	padding:0;
+	padding: 0;
 	list-style-type:none;
 	margin-top: -10px;
+	padding-top: 6px;
 }
 .footer_block ul li
 {
-	line-height: 30px;
+	line-height: 27px;
 }
 .footer_block ul li a
 {
 	text-decoration:none;
 	color:#252525;
-	font-size:14px;
+	font-size:12px;
 }
 .footer_block ul li a:hover
 {
@@ -732,6 +737,7 @@ div
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
+	width: 33px;
 }
 .footer_social img:hover
 {
@@ -754,10 +760,10 @@ div
 {
 	background:#f3f3f3;
 	text-align:center;
-	padding-top:25px;
-	padding-bottom:25px;
+	padding-top:10px;
+	padding-bottom:10px;
 	color:#252525;
-	font-size:14px;
+	font-size:12px;
 }
 .main_copy a
 {
@@ -5609,7 +5615,7 @@ input[type="submit"].btn_blue
 }
 .home_card_title
 {
-	font-size:24px;
+	font-size:20px;
 	font-weight:bold;
 	text-align:center;
 }
@@ -6014,16 +6020,16 @@ input[type="submit"].btn_blue
 }
 .top_title
 {
-	position:absolute;
-	left:0;
-	top:0;
-	text-align:center;
-	z-index:1;
-	color:#fff;
-	line-height:40px;
-	font-size:18px;
-	width:100%;
-	font-weight: lighter;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	z-index: 1;
+	color: #fff;
+	line-height: 40px;
+	font-size: 16px;
+	width: 100%;
+	font-weight: bold;
 }
 .city
 {
@@ -6343,7 +6349,7 @@ input[type="submit"].btn_blue
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin-top: 20px;
+	margin-top: 37px;
 	font-size: 12px;
 	
 }

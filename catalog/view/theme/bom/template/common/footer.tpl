@@ -91,7 +91,7 @@
         Способы оплаты:
       </div>
       <div class="footer_block_pay">
-        <img style="width: 263px;" src="/img/pay2.png" />
+        <img style="width: 215px;" src="/img/pay2.png" />
       </div>
 
     </div>
@@ -120,9 +120,7 @@
 <? } ?>
 <div class="clear"></div>
 <div class="main_copy">
-  “boModa”<br/>
-  Все права защищены © 2018 | <a href="">www.bomoda.ru</a>
-
+  Все права защищены © <?php echo date ( 'Y' ) ; ?> | <a href="">www.bomoda.ru</a>
 </div>
 <div class="full_version show_mobile">
   <span>На основной сайт</span>
