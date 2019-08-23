@@ -2,7 +2,7 @@
 
   <div class="order_block_line">
     <div class="order_block_line_left">
-      Населенный пункт
+      Город
     </div>
     <div class="order_block_line_right order_block_line_right_city">
 
@@ -10,9 +10,9 @@
     <div class="clear"></div>
   </div>
 <div class="order_block_line">
-  <div class="order_block_line_left">
+  <!--<div class="order_block_line_left">
     Адрес
-  </div>
+  </div>-->
   <div class="order_block_line_right order_block_line_right_street">
 
   </div>
@@ -46,9 +46,9 @@
   <div class="clear"></div>
 </div>
 <div class="order_block_line">
-  <div class="order_block_line_left">
+  <!-- <div class="order_block_line_left">
     Время доставки
-  </div>
+  </div> -->
   <div class="order_block_line_right order_block_line_right_date">
     <div class="order_block_line_right_date1">
     </div>

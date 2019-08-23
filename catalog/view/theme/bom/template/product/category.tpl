@@ -98,6 +98,7 @@ $t=new ModelCatalogCategory('catalog');
             <?php } else { ?>
             <div class="catalog_item_price have_old_price">
 
+
               <?=$product['price']?>
             </div>
             <div class="catalog_item_old_price">
@@ -109,14 +110,39 @@ $t=new ModelCatalogCategory('catalog');
             <div class="clear"></div>
 
           </div>
+          <div class="catalog_item_prices hidden_mobile">
+
+            <?php if (!$product['special']) { ?>
+
+            <div class="catalog_item_price">
+              <?=number_format(str_replace('р.','',$product['price']),0,' ',' ')?> руб.
+            </div>
+            <div class="catalog_item_old_price">
+
+            </div>
+            <?php } else { ?>
+            <div class="catalog_item_price have_old_price">
+
+              <?=number_format(str_replace('р.','',$product['price']),0,' ',' ')?> руб.
+            </div>
+            <div class="catalog_item_old_price">
+              <?=number_format(str_replace('р.','',$product['special']),0,' ',' ')?> руб.
+            </div>
+
+            <? } ?>
+
+            <div class="clear"></div>
+
+          </div>
           <div class="catalog_item_title">
-            <a href="<?=$product['href'];?>">
+            <a href="<?=$product['href'];?>" style="font-size: 12px;">
               <?=$product['name'];?>
             </a>
+            <a href="<?=$product['href'];?>" class="catalog_item_cat" style="font-size:11px;color:#a7a7a7;line-height: 1.429;">
+             / <?php echo $category['name']; ?> <?php echo $heading_title; ?>
+            </a>
           </div>
-          <div class="catalog_item_cat">
-            Брюки
-          </div>
+
           <div class="catalog_item_sizes show_mobile">
             <?foreach($product['options'] as $option) { //print_r($option);?>
             <?if($option['option_id']==13) { ?>
@@ -127,44 +153,21 @@ $t=new ModelCatalogCategory('catalog');
             <? } ?>
 
           </div>
-          <div class="catalog_item_prices hidden_mobile">
 
-              <?php if (!$product['special']) { ?>
-
-              <div class="catalog_item_price">
-                <?=$product['price']?>
-              </div>
-              <div class="catalog_item_old_price">
-
-              </div>
-              <?php } else { ?>
-              <div class="catalog_item_price have_old_price">
-
-                <?=$product['price']?>
-              </div>
-              <div class="catalog_item_old_price">
-                <?=$product['special']?>
-              </div>
-
-              <? } ?>
-
-              <div class="clear"></div>
-
-          </div>
             <div class="catalog_item_hidden">
               <div class="catalog_item_sizes">
                 Размеры:
                 <?foreach($product['options'] as $option) { //print_r($option);?>
                 <?if($option['option_id']==13) { ?>
                 <?foreach($option['product_option_value'] as $val) { ?>
-                <span><?=$val['name']?></span>
+                <span><a href="<?=$product['href'];?>"><?=$val['name']?></a></span>
                 <? } ?>
                 <? } ?>
                 <? } ?>
 
               </div>
               <a class="catalog_item_quick" data-id="<?=$product['product_id']?>">
-                Быстрый просмотр
+                Подробнее
               </a>
 
             </div>

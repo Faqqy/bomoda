@@ -125,3 +125,9 @@
 25.07.2019 00:26:26 [ERROR] Call ZipCheck failed: Нет доступа
 25.07.2019 00:26:45 [INFO] Call API: http://api.boxberry.de/json.php?prepaid=1&method=ListPoints&token=test_token
 25.07.2019 00:26:45 [ERROR] Call ListPoints failed: Нет доступа
+18.08.2019 16:48:11 [INFO] Not Russia or Region is not selected:  
+18.08.2019 16:48:11 [INFO] Not Russia or Region is not selected: 176 0
+18.08.2019 16:48:11 [INFO] Not Russia or Region is not selected: 222 0
+18.08.2019 19:09:49 [INFO] Not Russia or Region is not selected:  
+18.08.2019 19:09:49 [INFO] Not Russia or Region is not selected: 176 0
+18.08.2019 19:09:49 [INFO] Not Russia or Region is not selected: 222 0

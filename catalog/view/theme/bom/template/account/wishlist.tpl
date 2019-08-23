@@ -59,7 +59,7 @@ foreach($orders as $order)
               </div>
               <div class="wish_list_block_right">
                 <div class="wish_list_block_right_price">
-                  <?=number_format(str_replace('р.','',$product['price']),0,' ',' ');?>  руб.
+                  <?=number_format(str_replace('руб.','',$product['price']),0,' ',' ');?>  руб.
                 </div>
                 <div class="wish_list_block_right_btns">
                   <a href="<?=$product['remove']?>" class="btn_red">Удалить</a>

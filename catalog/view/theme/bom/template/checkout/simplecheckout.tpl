@@ -71,6 +71,7 @@ include 'includes/mainmenu.php';
     <div class="cart_title empty">
         <?php echo $heading_title; ?>
     </div>
+    <hr class="checkout__line">
     <div class="check_content">
         <div class="check_content_left">
 
@@ -306,6 +307,12 @@ include 'includes/mainmenu.php';
 </div>
 </div>
 <div class="check_content_right">
+    <div class="right__login">
+        <div class="sale">
+            <p>Получите скидку -<br> войдите в личный кабинет</p>
+            <a href="" class="btn_user">Войти</a>
+        </div>
+    </div>
     <div class="check_content_right_block">
         <div class="check_content_right_block_img">
             <img src="/img/or1.png" />

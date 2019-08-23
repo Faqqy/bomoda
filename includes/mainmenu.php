@@ -9,7 +9,7 @@
                             <div class="main_menu_col">
                                 <li class="subcategory">
 
-                                        Верх
+                                    Верх
 
                                 </li>
                                 <li>
@@ -213,7 +213,7 @@
 
                                             <a class="banner_img" href="#">
 
-                                                <img class="banner" type="image" src="img/sale-top/Для женщин 2.jpg" alt="Последний размер! Скидки до 70%">
+                                                <div class="banner" style="background: url(/img/sale-top/wum2.jpg) center / cover no-repeat"></div>
                                                 <span class="banner_link" href="#">Подробнее</span>
 
                                             </a>
@@ -419,7 +419,7 @@
 
                                     <a class="banner_img" href="#">
 
-                                        <img class="banner" type="image" src="img/sale-top/Для мужчин 1.jpg" alt="Рубашки со скидкой до 70%">
+                                        <div class="banner" style="background: url(/img/sale-top/man1.jpg) center / cover no-repeat"></div>
                                         <span class="banner_link" href="#">Подробнее</span>
 
                                     </a>
@@ -583,7 +583,7 @@
 
                                     <a class="banner_img" href="#">
 
-                                        <img class="banner" type="image" src="img/sale-top/Для красоты 2.jpg" alt="Мощный антиперспирант для ног">
+                                        <div class="banner" style="background: url(/img/sale-top/krasot2.jpg) center / cover no-repeat"></div>
                                         <span class="banner_link" href="#">Подробнее</span>
 
                                     </a>
