@@ -2,10 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/controller/extension/shipping/ll_grastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/language/ru-ru/extension/shipping/ll_grastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/view/template/extension/shipping/ll_grastin.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/controller/extension/shipping/ll_grastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/language/ru-ru/extension/shipping/ll_grastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/model/extension/shipping/ll_grastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/ll_grastin/ll_grastin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/Bomoda2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/Bomoda500px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/Left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/Left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/Right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/Right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/hoverleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/hoverright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/logonewheight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/logonewmin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/logonewsvg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/middle/boxberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/middle/grastin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/middle/hermes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/middle/partner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/middle/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/small/boxberry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/small/grastin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/small/hermes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/small/partner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/ll_grastin/small/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/catalog/logonewheight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/library/ll/grastin/src/Enum/ServiceType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/library/ll/grastin/src/Grastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/library/ll/grastin/src/GrastinException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/library/ll/grastin/src/GrastinServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/library/ll/grastin/src/OrderGrastin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/library/ll/grastin/src/ProductGrastin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/footer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/home.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/latest.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/latest.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +111,9 @@
       <workItem from="1566235209354" duration="35000" />
       <workItem from="1566470068271" duration="29191000" />
       <workItem from="1566573823850" duration="310000" />
-      <workItem from="1566575759921" duration="3323000" />
+      <workItem from="1566575759921" duration="7582000" />
+      <workItem from="1566831771203" duration="5931000" />
+      <workItem from="1566916581616" duration="1753000" />
     </task>
     <servers />
   </component>

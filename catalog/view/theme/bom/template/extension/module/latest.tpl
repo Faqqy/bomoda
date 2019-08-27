@@ -11,21 +11,23 @@
             <div class="home_slider_block_img">
               <a href="<?php echo $product['href']; ?>"><img src="/image/<?php echo $product['full_image']; ?>" /></a>
             </div>
-            <div class="home_slider_block_title">
-              <a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
-            </div>
-            <div class="home_slider_block_cat">
-              <?=$product['cat_name']?>
-            </div>
-
             <div class="home_slider_block_price">
               <?php if (!$product['special']) { ?>
-                <span><?=$product['price']?></span>
+              <span><?=$product['price']?></span>
               <?php } else { ?>
-                <span class="old_price"><?=$product['price']?></span> <span class="new_price"><?=$product['special']?></span>
+              <span class="old_price" style="font-size: 12px;"><b><?=$product['price']?></b></span> <span class="new_price" style="font-size: 12px;"><b><?=$product['special']?></b></span>
               <? } ?>
 
             </div>
+            <div class="home_slider_block_title">
+              <a href="<?php echo $product['href']; ?>" style="font-size:12px;font-weight:normal;"><?php echo $product['name']; ?></a>
+              <a href="<?php echo $product['href']; ?>" style="color:#a7a7a7;font-size:12px;font-weight:normal;"> / <?=$product['cat_name']?></a>
+            </div>
+            <div class="home_slider_block_cat">
+
+            </div>
+
+
           </div>
         </li>
 
