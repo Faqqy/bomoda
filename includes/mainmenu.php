@@ -209,11 +209,11 @@
                             </div>
 
                                 <div class="banners_from-menu">
-                                    <div class="img-banners">
+                                    <div class="img-banners" style="background: url(/img/sale-top/wum2.jpg) center / cover no-repeat">
 
                                             <a class="banner_img" href="#">
 
-                                                <div class="banner" style="background: url(/img/sale-top/wum2.jpg) center / cover no-repeat"></div>
+                                                <div class="banner"></div>
                                                 <span class="banner_link" href="#">Подробнее</span>
 
                                             </a>
@@ -415,11 +415,11 @@
                             </div>
 
                             <div class="banners_from-menu">
-                                <div class="img-banners">
+                                <div class="img-banners" style="background: url(/img/sale-top/man1.jpg) center / cover no-repeat">
 
                                     <a class="banner_img" href="#">
 
-                                        <div class="banner" style="background: url(/img/sale-top/man1.jpg) center / cover no-repeat"></div>
+                                        <div class="banner"></div>
                                         <span class="banner_link" href="#">Подробнее</span>
 
                                     </a>
@@ -579,11 +579,11 @@
                             </div>
 
                             <div class="banners_from-menu">
-                                <div class="img-banners">
+                                <div class="img-banners" style="background: url(/img/sale-top/krasot2.jpg) center / cover no-repeat">
 
                                     <a class="banner_img" href="#">
 
-                                        <div class="banner" style="background: url(/img/sale-top/krasot2.jpg) center / cover no-repeat"></div>
+                                        <div class="banner"></div>
                                         <span class="banner_link" href="#">Подробнее</span>
 
                                     </a>

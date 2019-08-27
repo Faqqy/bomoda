@@ -1312,7 +1312,7 @@ function setOrderLines()
     jQuery('.order_summ_top_price').html('Итого: товаров на сумму '+jQuery('#total_sub_total .simplecheckout-cart-total-value').html());
     jQuery('#total_shipping b').html('Доставка: ');
     jQuery('.check_content_left').css({'padding-bottom':(jQuery('.order_summ').outerHeight()+30)+'px'});
-    jQuery('.order_summ_top_left_pay_right select').styler();
+    jQuery('.order_summ_top_left_pay_right input[type="radio"]').styler();
     jQuery('#button-confirm').attr('class','btn_add_cart');
 
 

@@ -5,9 +5,17 @@
         <div class="order_summ_top_price">
         </div>
         <div class="order_summ_top_left">
+            Введите промокод
             <div class="order_summ_top_left_cupon order_block_line">
                 <a class="btn_cupon_click" onclick="setCupon();">Применить</a>
             </div>
+        </div>
+        <div class="sale_top_left order_block_line">
+            <p><b>Накопительная скидка</b></p>
+            <div class="title_sale"><a>Авторизируйтесь,</a>что бы воспользоваться вашей накопительной скидкой</div>
+
+        </div>
+        <div class="order_summ_top_right">
             <div class="order_summ_top_left_pay">
                 <div class="order_summ_top_left_pay_left">
                     Способ оплаты
@@ -15,9 +23,6 @@
                 <div class="order_summ_top_left_pay_right">
                 </div>
             </div>
-
-        </div>
-        <div class="order_summ_top_right">
         </div>
         <div class="clear"></div>
     </div>
