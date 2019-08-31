@@ -675,7 +675,8 @@ div
 	padding-bottom:0;
 	font-size:14px;
 	color:#252525;
-	height: 274px;
+	height: 250px;
+
 }
 .main_footer
 {
@@ -6333,7 +6334,20 @@ input[type="submit"].btn_blue
 
 .main_menu_footer .main_menu_col{
 	padding-left: 0;
+	padding-top: 30px;
+	width: 15%;
+	/* padding: 0; */
+	padding-right: 10px;
+	float: left;
+	font-size: 10px;
 }
+
+.main_menu_footer .subcategory{
+	font-size: 11px;
+	padding-top: 9px;
+	padding-bottom: 5px;
+}
+
 
 .main_menu_footer .content_footer-menu_a,.content_footer-menu_b,.content_footer-menu_c,.content_footer-menu_f {
 	display: none;
@@ -6350,10 +6364,9 @@ input[type="submit"].btn_blue
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin-top: 37px;
 	font-size: 12px;
-	
 }
+
 
 .content_footer-menu_d .main_menu_col {
 	width: 100%;

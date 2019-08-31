@@ -28,6 +28,9 @@
           <ul class="nav nav-tabs">
             <li class="active"><a href="#tab-general" data-toggle="tab"><?php echo $tab_general; ?></a></li>
             <li><a href="#tab-data" data-toggle="tab"><?php echo $tab_data; ?></a></li>
+
+            <li><a href="#tab-yomenu" data-toggle="tab"><?php echo $tab_yomenu; ?></a></li>
+            
             <li><a href="#tab-design" data-toggle="tab"><?php echo $tab_design; ?></a></li>
           </ul>
           <div class="tab-content">
@@ -191,6 +194,28 @@
                 </div>
               </div>
             </div>
+
+            <div class="tab-pane" id="tab-yomenu">
+              <div class="form-group">
+                <label class="col-sm-2 control-label"><?php echo $entry_yomenu_image; ?></label>
+                <div class="col-sm-10"><a href="" id="thumb-yomenu-image" data-toggle="image" class="img-thumbnail"><img src="<?php echo $yo_image_thumb; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
+                  <input type="hidden" name="yomenu_image" value="<?php echo $yomenu_image; ?>" id="input-yomenu-image" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label"><?php echo $entry_yomenu_icon; ?></label>
+                <div class="col-sm-10"><a href="" id="thumb-yomenu-icon" data-toggle="image" class="img-thumbnail"><img src="<?php echo $yo_icon_thumb; ?>" alt="" title="" data-placeholder="<?php echo $placeholder; ?>" /></a>
+                  <input type="hidden" name="yomenu_icon" value="<?php echo $yomenu_icon; ?>" id="input-yomenu-icon" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="col-sm-2 control-label"><?php echo $entry_yomenu_content; ?></label>
+                <div class="col-sm-10">
+                  <textarea  name="yomenu_content" id="yomenu-content" class="form-control" rows="7"><?php echo isset($yomenu_content) ? $yomenu_content : ''; ?></textarea>
+                </div>
+              </div>
+            </div>
+            
             <div class="tab-pane" id="tab-design">
               <div class="table-responsive">
                 <table class="table table-bordered table-hover">
@@ -301,4 +326,11 @@ $('#category-filter').delegate('.fa-minus-circle', 'click', function() {
   <script type="text/javascript"><!--
 $('#language a:first').tab('show');
 //--></script></div>
+
+            <script type="text/javascript"><!--
+                $('#yomenu-content').summernote({
+                    height: 200
+                });
+            //--></script>
+            
 <?php echo $footer; ?>

@@ -7,7 +7,17 @@ $t=new ModelCatalogCategory('catalog');
 
 
 <div class="main_content m_row">
-  <? include 'includes/leftmenu.php';?>
+    <?php echo $column_left; ?>
+    <?php if ($column_left && $column_right) { ?>
+    <?php $class = 'col-sm-6'; ?>
+    <?php } elseif ($column_left || $column_right) { ?>
+    <?php $class = 'col-sm-9'; ?>
+    <?php } else { ?>
+    <?php $class = 'col-sm-12'; ?>
+    <?php } ?>
+
+
+
   <div class="content" id="content">
       <div class="mobile_btns show_mobile">
           <div class="mobile_btn_left">
@@ -160,7 +170,8 @@ $t=new ModelCatalogCategory('catalog');
                 <?foreach($product['options'] as $option) { //print_r($option);?>
                 <?if($option['option_id']==13) { ?>
                 <?foreach($option['product_option_value'] as $val) { ?>
-                <span><a href="<?=$product['href'];?>"><?=$val['name']?></a></span>
+                  <span><a href="<?=$product['href'];?>"><?= $val['name'];?></a></span>
+
                 <? } ?>
                 <? } ?>
                 <? } ?>

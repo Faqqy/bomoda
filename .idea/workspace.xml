@@ -2,13 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/controller/extension/module/yo_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/module/yo_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/language/ru-ru/extension/module/yo_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/model/yomenu/yo_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/view/template/extension/module/yo_menu.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/controller/extension/module/yo_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/model/catalog/yo_menu.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/yo/menu/easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/yo/menu/menuaim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/image/yo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-am.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-fm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-pm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/yo/menu/yo_am.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/yo/menu/yo_fm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/yo/menu/yo_pm.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/choise.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/progroman/progroman.city-manager.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/progroman/progroman.city-manager.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/bootstrap/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_payment.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_payment.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/column_left.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/column_left.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/manufacturer_info.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/manufacturer_info.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/mainmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/mainmenu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/mainmenu_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/mainmenu_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/config/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/catalog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +104,9 @@
       <workItem from="1566575759921" duration="7582000" />
       <workItem from="1566831771203" duration="5931000" />
       <workItem from="1566916581616" duration="9923000" />
+      <workItem from="1567103910608" duration="11500000" />
+      <workItem from="1567198618972" duration="10709000" />
+      <workItem from="1567241501838" duration="8078000" />
     </task>
     <servers />
   </component>

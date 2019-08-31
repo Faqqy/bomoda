@@ -109,6 +109,7 @@ class ControllerProductCategory extends Controller {
 			$data['text_compare'] = sprintf($this->language->get('text_compare'), (isset($this->session->data['compare']) ? count($this->session->data['compare']) : 0));
 			$data['text_sort'] = $this->language->get('text_sort');
 			$data['text_limit'] = $this->language->get('text_limit');
+            $data['text_select'] = $this->language->get('text_select');
 
 			$data['button_cart'] = $this->language->get('button_cart');
 			$data['button_wishlist'] = $this->language->get('button_wishlist');
@@ -257,9 +258,14 @@ class ControllerProductCategory extends Controller {
                         'required'             => $option['required']
                     );
                 }
+
+
+                $options = $this->model_catalog_product->getProductOptions($result['product_id']);
+
 				$data['products'][] = array(
 					'options'      => $options,
 					'product_id'  => $result['product_id'],
+                    'options' => $options,
 					'thumb'       => $image,
 					'full_image'       => $result['image'],
 					'name'        => $result['name'],
