@@ -160,6 +160,24 @@ class ControllerProductProduct extends Controller {
 		}
 
 		$this->load->model('catalog/product');
+        $this->load->model('catalog/category');
+
+        $this->data['catprod'] = array();
+
+        $product_category = $this->model_catalog_product->getCategories($product_id);
+
+        foreach ($product_category as $prodcat) {
+
+            $category_info = $this->model_catalog_category->getCategory($prodcat['category_id']);
+
+            if ($category_info) {
+
+                $this->data['catprod'][] = array(
+                    'name'     => $category_info['name'],
+                    'href'     => $this->url->link('product/category', 'path=' . $category_info['category_id'])
+                );
+            }
+        }
 
 		$product_info = $this->model_catalog_product->getProduct($product_id);
 
@@ -274,6 +292,11 @@ class ControllerProductProduct extends Controller {
 			$data['model'] = $product_info['model'];
 			$data['reward'] = $product_info['reward'];
 			$data['points'] = $product_info['points'];
+            //add_cat_list_baco
+            $data['cat_list'] = $this->model_catalog_product->getCategoryNames($product_id);
+            $data['category_url'] = $this->model_catalog_product->getProductMainCategoryUrl($main_category_id);  // Прописываем ссылку на категории
+            //EOF_add_cat_list_baco
+
 			$data['description'] = html_entity_decode($product_info['description'], ENT_QUOTES, 'UTF-8');
 
 			if ($product_info['quantity'] <= 0) {
@@ -657,6 +680,7 @@ class ControllerProductProduct extends Controller {
 	public function getRecurringDescription() {
 		$this->load->language('product/product');
 		$this->load->model('catalog/product');
+
 
 		if (isset($this->request->post['product_id'])) {
 			$product_id = $this->request->post['product_id'];

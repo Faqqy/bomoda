@@ -9,57 +9,6 @@
     </div>
     <div class="clear"></div>
   </div>
-<div class="order_block_line">
-  <!--<div class="order_block_line_left">
-    Адрес
-  </div>-->
-  <div class="order_block_line_right order_block_line_right_street">
-
-  </div>
-  <div class="clear"></div>
-</div>
-<div class="order_block_line">
-  <div class="order_block_line_left">
-
-  </div>
-  <div class="order_block_line_right order_block_line_right_house">
-
-  </div>
-  <div class="clear"></div>
-</div>
-<div class="order_block_line">
-  <div class="order_block_line_left">
-
-  </div>
-  <div class="order_block_line_right order_block_line_right_kv">
-
-  </div>
-  <div class="clear"></div>
-</div>
-<div class="order_block_line">
-  <div class="order_block_line_left">
-
-  </div>
-  <div class="order_block_line_right order_block_line_right_type">
-
-  </div>
-  <div class="clear"></div>
-</div>
-<div class="order_block_line">
-  <!-- <div class="order_block_line_left">
-    Время доставки
-  </div> -->
-  <div class="order_block_line_right order_block_line_right_date">
-    <div class="order_block_line_right_date1">
-    </div>
-    <div class="order_block_line_right_date2">
-    </div>
-
-  </div>
-  <div class="clear"></div>
-</div>
-
-
 
 
   <?php if ($display_header) { ?>

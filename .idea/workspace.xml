@@ -2,38 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/controller/extension/module/yo_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/language/en-gb/extension/module/yo_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/language/ru-ru/extension/module/yo_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/model/yomenu/yo_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/view/template/extension/module/yo_menu.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/controller/extension/module/yo_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/model/catalog/yo_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/yo/menu/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery/yo/menu/menuaim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/image/yo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-am.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-fm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-pm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/yo/menu/yo_am.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/yo/menu/yo_fm.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/yo/menu/yo_pm.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/choise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/jquery.formstyler.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/simple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/simple.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/product/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/javascript/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/jquery.formstyler.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/jquery.formstyler.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/column_left.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/column_left.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_customer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_customer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_shipping_address.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_shipping_address.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/common/column_left.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/manufacturer_info.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/manufacturer_info.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/mainmenu.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/mainmenu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/mainmenu_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/mainmenu_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config/catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/catalog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/product.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/progroman/city_manager/cities.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/progroman/city_manager/cities.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/admin/view/template/catalog/category_form.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +46,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -106,7 +101,18 @@
       <workItem from="1566916581616" duration="9923000" />
       <workItem from="1567103910608" duration="11500000" />
       <workItem from="1567198618972" duration="10709000" />
-      <workItem from="1567241501838" duration="8078000" />
+      <workItem from="1567241501838" duration="8777000" />
+      <workItem from="1567333268771" duration="5593000" />
+      <workItem from="1567799680474" duration="284000" />
+      <workItem from="1567851009767" duration="1730000" />
+      <workItem from="1567852794270" duration="1196000" />
+      <workItem from="1567854381724" duration="5667000" />
+      <workItem from="1567891848565" duration="1837000" />
+      <workItem from="1567893877455" duration="312000" />
+      <workItem from="1567894310320" duration="18000" />
+      <workItem from="1567903944371" duration="2774000" />
+      <workItem from="1567942309742" duration="3693000" />
+      <workItem from="1568054336907" duration="14843000" />
     </task>
     <servers />
   </component>

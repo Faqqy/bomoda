@@ -148,8 +148,8 @@ $t=new ModelCatalogCategory('catalog');
             <a href="<?=$product['href'];?>" style="font-size: 12px;">
               <?=$product['name'];?>
             </a>
-            <a href="<?=$product['href'];?>" class="catalog_item_cat" style="font-size:11px;color:#a7a7a7;line-height: 1.429;">
-             / <?php echo $category['name']; ?> <?php echo $heading_title; ?>
+            <a href="<?=$cat['href'];?>" class="catalog_item_cat" style="font-size:11px;color:#a7a7a7;line-height: 1.429;">
+             / <?php echo $cat['name']; ?>
             </a>
           </div>
 

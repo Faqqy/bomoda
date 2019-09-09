@@ -3,7 +3,6 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">
-          <span>&times;</span>
         </button>
         <h4 class="modal-title"><?= $text_choose_region; ?></h4>
       </div>
@@ -14,7 +13,7 @@
             <input class="prmn-cmngr-cities__search form-control" type="text" placeholder="<?= $text_search_placeholder; ?>">
           </div>
         </div>
-        <div class="row">
+        <div class="city_form_bottom">
             <?php foreach ($columns as $column) { ?>
               <div class="col-xs-4">
                   <?php foreach ($column as $city) { ?>

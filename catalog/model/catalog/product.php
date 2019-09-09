@@ -431,6 +431,21 @@ class ModelCatalogProduct extends Model {
 		}
 	}
 
+    public function getCategoryNames($product_id) {
+        $query = $this->db->query("SELECT cd.name
+                        FROM " . DB_PREFIX . "category_description cd
+                        LEFT JOIN " . DB_PREFIX . "product_to_category p2c ON (p2c.category_id = cd.category_id)
+                            WHERE p2c.product_id = '" . (int)$product_id . "'
+                            AND cd.language_id = '" . (int)$this->config->get('config_language_id') . "'");
+        return $query->rows;
+    }
+
+    public function getProductMainCategoryUrl($main_category_id) {
+        $query = $this->db->query("SELECT * FROM " . DB_PREFIX . "url_alias WHERE query = '" . "category_id=".(int)$main_category_id. "'");
+        return ($query->num_rows ? $query->row['keyword'] : "product_id=");
+
+    }
+
 	public function getCategories($product_id) {
 		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "product_to_category WHERE product_id = '" . (int)$product_id . "'");
 

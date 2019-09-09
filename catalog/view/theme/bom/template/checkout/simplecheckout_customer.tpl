@@ -41,7 +41,7 @@
 
   </div>
   <div class="order_block_line_right order_block_line_right_news">
-
+    fddgdfgdfgdfgdfgdfg
   </div>
   <div class="clear"></div>
 </div>

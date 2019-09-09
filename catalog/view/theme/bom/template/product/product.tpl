@@ -129,6 +129,17 @@
       <div class="right_product_title">
         <?=$heading_title?>
       </div>
+
+
+      <div class="catalog_title">
+
+        <?php if ($cat_list) { ?>
+        <?php foreach ($cat_list as $cat_name) { ?>
+          <a href="<?php echo $category_url; ?>"> / <?php echo $cat_name['name']; ?></a>
+        <?php } ?>
+        <?php } ?>
+
+      </div>
       <div class="right_product_price">
 
         <div class="home_slider_block_price">
@@ -182,7 +193,7 @@
 
 
       <div class="right_product_wish_link  hidden_mobile">
-        <a onclick="wishlist.add('<?php echo $product_id; ?>');" class="btn_wish">Добавить в избранное</a>
+        <a onclick="wishlist.add('<?php echo $product_id; ?>');" class="btn_wish"></a>
       </div>
 
       <div class="right_product_attr">
@@ -192,13 +203,17 @@
           <div class="right_product_title show_mobile">
               <?=$heading_title?>
           </div>
-        <?php foreach ($attribute_groups as $attribute_group) { //print_r($attribute_group);?>
+        <div class="sttribute">
+          <?php foreach ($attribute_groups as $attribute_group) { //print_r($attribute_group);?>
           <?php if($attribute_group['attribute_group_id']==7) { ?>
-            <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
-              <?php echo $attribute['name']; ?>: <?php echo $attribute['text']; ?><br/>
-            <? } ?>
+          <?php foreach ($attribute_group['attribute'] as $attribute) { ?>
+          <b><?php echo $attribute['name']; ?></b>: <?php echo $attribute['text']; ?><br/>
           <? } ?>
-        <?php } ?>
+          <? } ?>
+          <?php } ?>
+
+        </div>
+
       </div>
       <div class="line hidden_mobile"></div>
       <div class="right_product_social_title hidden_mobile">
@@ -266,9 +281,9 @@
 
 
 </div>
+</div>
 
-
-
+  <?php echo $footer; ?>
 
 
 
@@ -490,4 +505,4 @@
         });
     });
     //--></script>
-<?php echo $footer; ?>
+
