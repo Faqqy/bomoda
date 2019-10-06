@@ -99,12 +99,15 @@ jQuery(document).ready(function(){
         e.preventDefault();
         jQuery("html, body").animate({ scrollTop: jQuery('.main_sotr_form').offset().top }, 600);
     });
-    jQuery('.main_menu_left>ul>li').mouseenter(function(){
-        jQuery(this).children('ul').show();
-
+    jQuery('.main_menu_left>ul>li').mouseenter(function() {
+        timer = setTimeout(function () {
+            jQuery(this).children('ul').show();
+          }, 300);
     });
     jQuery('.main_menu_left>ul>li').mouseleave(function(){
-        jQuery(this).children('ul').hide();
+        timer = setTimeout(function () {
+            jQuery(this).children('ul').hide();
+         }, 300);
     });
 
 
@@ -1371,7 +1374,7 @@ function setCar()
             .jcarouselAutoscroll({
                 interval: 3000,
                 target: '+=1',
-                autostart: true
+                autostart: false
             })
 
         ;
@@ -1379,12 +1382,12 @@ function setCar()
 
         $('.jcarousel-control-prev')
             .jcarouselControl({
-                target: '-=1'
+                target: '-=6'
             });
 
         $('.jcarousel-control-next')
             .jcarouselControl({
-                target: '+=1'
+                target: '+=6'
             });
 
         $('.jcarousel-pagination')

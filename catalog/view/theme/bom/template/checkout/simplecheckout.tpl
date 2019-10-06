@@ -315,40 +315,69 @@ include 'includes/mainmenu.php';
     </div>
     <div class="check_content_right_block">
         <div class="check_content_right_block_img">
-            <img src="/img/or1.png" />
+            <svg class="svg_circle" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
+                <g fill="none" fill-rule="evenodd">
+                    <path stroke="#222" stroke-width="2.2" d="M31 37.1a4.9 4.9 0 0 0-4.9 4.9v23a4.9 4.9 0 0 0 4.9 4.9h38a4.9 4.9 0 0 0 4.9-4.9V42a4.9 4.9 0 0 0-4.9-4.9H31z"/>
+                    <path fill="#222" d="M25 48h50v2.2H25z"/>
+                    <path fill="#222" d="M50 36h2.2v35H50z"/>
+                    <g stroke="#222" stroke-width="2.2">
+                        <path d="M50.184 32.931c-.266-4.488-2.137-7.734-5.01-9.514-2.516-1.56-5.467-1.67-6.846-.521-1.25 1.04-1.15 3.395.579 5.533 2.089 2.582 5.966 4.29 11.277 4.502zM50.78 32.931c.266-4.488 2.137-7.734 5.01-9.514 2.516-1.56 5.467-1.67 6.846-.521 1.25 1.04 1.15 3.395-.579 5.533-2.089 2.582-5.966 4.29-11.277 4.502z"/>
+                    </g>
+                </g>
+            </svg>
         </div>
         <div class="check_content_right_block_text">
-            Доставляем товары по всей России
+            <b>1. Выберите способ доставки</b>
+            <p>Вы можете заказать курьерскую доставку на дом<br>или самостоятельно забрать товары в пунктах выдачи.</p>
         </div>
     </div>
     <div class="check_content_right_block">
         <div class="check_content_right_block_img">
-            <img src="/img/or2.png" />
+            <svg class="svg_circle" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
+                <g fill="none" fill-rule="evenodd" stroke="#222" stroke-width="2.2">
+                    <path stroke-linejoin="round" d="M45.063 34.75c0 6.403-5.132 11.59-11.459 11.59-6.33 0-11.458-5.187-11.458-11.59s5.129-11.59 11.458-11.59c6.327 0 11.459 5.187 11.459 11.59z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M38.188 37.068h-4.584v-8.113M58.813 50.977h10.312l5.73 9.273v6.955h-5.93"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M46.01 67.205h12.828l-.025-23.182H47.354M33.604 50.977v16.228h5.929M69.125 68.364c0 1.92-1.538 3.477-3.438 3.477-1.897 0-3.437-1.558-3.437-3.477 0-1.922 1.54-3.478 3.438-3.478 1.9 0 3.437 1.556 3.437 3.478z"/>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M46.208 68.364c0 1.92-1.537 3.477-3.437 3.477-1.898 0-3.438-1.558-3.438-3.477 0-1.922 1.54-3.478 3.438-3.478 1.9 0 3.437 1.556 3.437 3.478zM22.146 55.614l6.875.011M25.583 60.25l3.438.012M27.875 64.886l1.146.012M74.854 60.25H58.813M58.837 67.205h3.625"/>
+                </g>
+            </svg>
         </div>
         <div class="check_content_right_block_text">
-            Доставка по Москве и МО осуществляется
-            на следующий день после оформления заказа
+            <b>2. Укажите адрес и время</b>
+            <p>При курьерской доставке укажите адрес получения,<br> дату и время приезда курьера.</p>
         </div>
     </div>
     <div class="check_content_right_block">
         <div class="check_content_right_block_img">
-            <img src="/img/or3.png" />
+            <svg class="svg_circle" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
+                <g fill="none" fill-rule="evenodd" stroke="#222" stroke-width="2.2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M50.5 44.717L22.084 58.86c-1.574 1.09-.62 3.857 1.291 3.857h54.25c1.907 0 2.865-2.764 1.292-3.857L50.5 44.717zM44.042 35.717c0-3.551 2.888-6.429 6.458-6.429 3.568 0 6.459 2.878 6.459 6.429 0 1.34-2.008 4.909-4.74 6.063-"/>
+                </g>
+            </svg>
         </div>
         <div class="check_content_right_block_text">
-            Примеряйте и оплачивайте только те товары,
-            которые Вам подошли
+            <b>3. Примерьте заказанную одежду</b>
+            <p>При курьерской доставке для примерки отводится 30 минут.<br>Покупайте только те товары, которые Вам подошли.</p>
         </div>
     </div>
     <div class="check_content_right_block">
         <div class="check_content_right_block_img">
-            <img src="/img/or4.png" />
+
+            <svg class="svg_circle" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 100 100">
+                <g fill="none" fill-rule="evenodd">
+                    <path stroke="#222" stroke-width="2.2" d="M75 68H49c-1.1 0-2-.9-2-2V50c0-1.1.9-2 2-2h26c1.1 0 2 .9 2 2v16c0 1.1-.9 2-2 2zM53 56h13M47 62h30M42.7 61.5c-.9-.9-1.5-2.2-1.5-3.5 0-1.4.6-2.6 1.5-3.5M39.9 64.4c-1.6-1.6-2.6-3.9-2.6-6.4 0-2.5 1-4.7 2.6-6.4"/>
+                    <path d="M30 73h48V25H30z"/>
+                    <path stroke="#222" stroke-width="2.2" d="M35 44h16v-4H35zM34 36h18M37 36h12V26H37z"/>
+                    <path stroke="#222" stroke-width="2.2" d="M49 32h4c1.1 0 2 .9 2 2v14M55 68v2c0 1.1-.9 2-2 2H33c-1.1 0-2-.9-2-2V34c0-1.1.9-2 2-2h4"/>
+                </g>
+            </svg>
         </div>
         <div class="check_content_right_block_text">
-            В случае выкупа товаров на сумму 3000 рублей
-            курьерская доставка бесплатная
+            <b>4. Оплатите выбранные товары</b>
+            <p>Вы можете оплатить товары наличным расчетом,<br> банковской картой или денежным переводом.</p>
         </div>
     </div>
-    <div class="check_content_right_block">
+    <!-- <div class="check_content_right_block">
         <div class="check_content_right_block_img">
             <img src="/img/or5.png" />
         </div>
@@ -364,7 +393,7 @@ include 'includes/mainmenu.php';
         <div class="check_content_right_block_text">
             На примерку отводится целых 30 минут
         </div>
-    </div>
+    </div> -->
 
 </div>
 <div class="clear"></div>

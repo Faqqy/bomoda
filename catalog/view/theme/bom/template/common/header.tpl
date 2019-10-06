@@ -90,7 +90,7 @@
       </div>
     </div>
     <div class="m_header_logo">
-      <a href=""><img src="/catalog/view/theme/bom/images/Bomoda2.svg"></a>
+      <a href=""><img src="/catalog/view/theme/bom/images/bomodanew.svg"></a>
     </div>
     <div class="m_header_cart">
       <a href="/checkout/cart">
@@ -144,7 +144,7 @@ if($_GET['menu']!='company') {
     </div>
     <? } else { ?>
     <div class="logo" >
-      <a href=""><img style="width: 200px;" src="/catalog/view/theme/bom/images/Bomoda500px.png"></a>
+      <a href=""><img style="width: 180px;" src="/catalog/view/theme/bom/images/bomodanew.png"></a>
     </div>
 
     <? } ?>

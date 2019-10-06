@@ -23,6 +23,7 @@
           <?php } ?>
         </label>
         <? } ?>
+        <hr>
         <a class="send_filter">Применить</a>
       </div>
     </div>

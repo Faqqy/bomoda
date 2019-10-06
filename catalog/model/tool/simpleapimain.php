@@ -15,7 +15,7 @@ class ModelToolSimpleApiMain extends Model {
 
         $requiredGroupId = 0;
 
-        if ($this->customer->isLogged()) {
+        if ($this->customer->isLogged()) {getZones
             if ($version < 200) {
                 $requiredGroupId = $this->customer->getCustomerGroupId();
             } else {

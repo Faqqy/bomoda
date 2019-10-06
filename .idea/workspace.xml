@@ -2,27 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/jquery.formstyler.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/simple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/simple.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/bomodanew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/bomodanew.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/dile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/controller/product/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/catalog/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/catalog/product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/bootstrap/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/language/ru-ru/common/maintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/ru-ru/common/maintenance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/model/tool/simpleapimain.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/tool/simpleapimain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery.jcarousel-core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery.jcarousel-core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/jquery.formstyler.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/jquery.formstyler.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_customer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_customer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_shipping_address.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_shipping_address.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/footer.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/header.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/filter.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/filter.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/latest.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/latest.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/product.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/progroman/city_manager/cities.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/progroman/city_manager/cities.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/product/product.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-am.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-am.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/product.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/catalog/controller/product/product.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +113,18 @@
       <workItem from="1567903944371" duration="2774000" />
       <workItem from="1567942309742" duration="3693000" />
       <workItem from="1568054336907" duration="14843000" />
+      <workItem from="1568149811532" duration="6180000" />
+      <workItem from="1568233467764" duration="6027000" />
+      <workItem from="1568291543102" duration="9140000" />
+      <workItem from="1568500753805" duration="29000" />
+      <workItem from="1569341522219" duration="44000" />
+      <workItem from="1569341638600" duration="2063000" />
+      <workItem from="1569431343612" duration="134000" />
+      <workItem from="1569431552822" duration="2459000" />
+      <workItem from="1569447073498" duration="765000" />
+      <workItem from="1570132303711" duration="31000" />
+      <workItem from="1570132365262" duration="1467000" />
+      <workItem from="1570390789570" duration="3076000" />
     </task>
     <servers />
   </component>

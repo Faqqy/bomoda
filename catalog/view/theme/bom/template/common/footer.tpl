@@ -133,8 +133,7 @@
 
 <div class="m_form" id="call_form">
   <div class="call_form_title">
-    Оставьте Ваш номер телефона и мы
-    перезвоним в удобное для Вас время
+    Обратный звонок
   </div>
   <div class="form_form">
 

@@ -137,8 +137,6 @@
 	width: 8px;
 	height: 4px;
 	margin: 3px 0 0 3px;
-	border-bottom: 2px solid #666;
-	border-left: 2px solid #666;
 	-webkit-transform: rotate(-50deg);
 	transform: rotate(-50deg);
 }

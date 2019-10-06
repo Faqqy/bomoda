@@ -6,12 +6,10 @@
 </div>
 <div class="main_content m_row" id="content">
   <div class="bread">
-    <ul>
-      <li>
-        <a onclick="javascript:history.back();">< Вернуться в каталог</a>
-      </li>
-
-
+    <ul class="breadcrumb">
+      <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+      <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+      <?php } ?>
     </ul>
     <div class="clear"></div>
   </div>

@@ -6,6 +6,7 @@ $t=new ModelCatalogCategory('catalog');
 <? include 'includes/mainmenu.php';?>
 
 
+
 <div class="main_content m_row">
     <?php echo $column_left; ?>
     <?php if ($column_left && $column_right) { ?>

@@ -3,7 +3,7 @@
 </div>
 <div class="home_slider">
   <div class="jcarousel-wrapper">
-    <div class="jcarousel" data-col="5">
+    <div class="jcarousel" data-col="6">
       <ul>
         <?php foreach ($products as $product) { ?>
         <li>

@@ -1,5 +1,14 @@
 <div class="simplecheckout-block" id="simplecheckout_customer" <?php echo $hide ? 'data-hide="true"' : '' ?> <?php echo $display_error && $has_error ? 'data-error="true"' : '' ?>>
 
+<div class="simplecheckout-block-content">
+  <div class="ll_grastin ll_grastin_courier_grastin">
+
+  </div>
+  <div class="ll_grastin ll_grastin_pickup_grastin">
+
+  </div>
+</div>
+
 <div class="order_block_line">
   <div class="order_block_line_left">
     Имя
@@ -41,7 +50,7 @@
 
   </div>
   <div class="order_block_line_right order_block_line_right_news">
-    fddgdfgdfgdfgdfgdfg
+
   </div>
   <div class="clear"></div>
 </div>
