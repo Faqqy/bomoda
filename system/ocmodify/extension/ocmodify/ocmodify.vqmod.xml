@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <id>OcModify Framework</id>
+  <version>1.1.4</version>
+  <vqmver>2.X</vqmver>
+  <author>Mumtoz Kodirov</author>
+
+  <!-- Registry proxy -->
+  <file name="system/engine/registry.php">
+    <operation>
+      <search position="replace"><![CDATA[private $data = array();]]></search>
+      <add><![CDATA[private $data = array();
+
+  public function __construct() {
+    // Startup ocmodify engine
+    require_once (DIR_SYSTEM . 'ocmodify/startup.php');
+
+    // Bootup ocmodify framework
+    ocmBootup($this);
+  }]]></add>
+    </operation>
+    <operation>
+      <search position="replace" regex="true"><![CDATA[#return\s+\(isset\(\$this->data\[\$key\]\)\s+\?\s+\$this->data\[\$key\]\s+\:\s+null\);#i]]></search>
+      <add><![CDATA[return OCModify::ocmGetOverride($this->data, $key);]]></add>
+    </operation>
+    <operation>
+      <search position="replace" regex="true"><![CDATA[#\$this->data\[\$key\]\s+=\s+\$value;#i]]></search>
+      <add><![CDATA[OCModify::ocmSetOverride($this->data, $key, $value);]]></add>
+    </operation>
+  </file>
+
+  <!-- Startup -->
+  <file name="system/engine/front.php">
+    <operation>
+      <search position="replace"><![CDATA[$this->error = $error;]]></search>
+      <add><![CDATA[ocmStartup($this->registry);
+
+    $this->error = $error;]]></add>
+    </operation>
+    <operation>
+      <search position="replace"><![CDATA[$action = '';]]></search>
+      <add><![CDATA[// $action = '';]]></add>
+    </operation>
+  </file>
+
+  <!-- Router trigger, only action can be returned -->
+  <file name="system/engine/front.php">
+    <operation>
+      <search position="replace" regex="true"><![CDATA[#require_once\((\\?VQMod::modCheck\()?(\$file|\$action->getFile\(\))\)?\);#is]]></search>
+      <add><![CDATA[$data = array($action->getArgs());
+      return OCMAction::instance(ocmGetRouteByFile($action->getFile()) . '/' . $action->getMethod())->execute($this->registry, $data);]]></add>
+    </operation>
+  </file>
+
+  <file name="system/engine/controller.php">
+    <!-- Loader->controller() trigger, any result can be returned -->
+    <operation>
+      <search position="replace" regex="true"><![CDATA[#require_once\((\\VQMod::modCheck\()?(\$file|\$action->getFile\(\)\)?)\);#is]]></search>
+      <add><![CDATA[$data = array(&$args);
+      return OCMAction::instance(ocmGetRouteByFile($action->getFile()) . '/' . $action->getMethod())->execute($this->registry, $data, false);]]></add>
+    </operation>
+    <!-- View trigger -->
+    <operation>
+      <search position="replace"><![CDATA[extract($this->data);]]></search>
+      <add><![CDATA[// Prepare the trigger data
+      $_route = preg_replace(array('#\.(tpl|twig)$#', '#[^a-zA-Z0-9_\/]#'), '', $this->template);
+      $_data = array_merge(array('trigger' => array('type' => 'view', 'route' => &$_route, 'output' => &$this->output)), array('data' => &$this->data));
+      $trigger = new OCMTrigger($this->registry);
+
+      // Trigger the pre events
+      if ($_result = $trigger->execute('before', 'view/' . $_route, $_data)) {
+        return $_result;
+      }
+
+      extract($this->data);]]></add>
+    </operation>
+    <operation>
+      <search position="replace"><![CDATA[return $this->output;]]></search>
+      <add><![CDATA[// Trigger the post events
+      if ($_result = $trigger->execute('after', 'view/' . $_route, $_data)) {
+        return $_result;
+      }
+
+      return $this->output;]]></add>
+    </operation>
+  </file>
+
+  <!-- Template trigger -->
+  <file name="system/library/template.php">
+    <operation>
+      <search position="replace"><![CDATA[extract($this->data);]]></search>
+      <add><![CDATA[return OCModify::$instance->registry->get('load')->view($filename, $this->data, $this);]]></add>
+    </operation>
+
+    <operation>
+      <search position="replace"><![CDATA[extract($this->data);]]></search>
+      <add><![CDATA[// Prepare the trigger data
+      $content = null;
+      $_route = preg_replace(array('#\.(tpl|twig)$#', '#[^a-zA-Z0-9_\/]#'), '', $filename);
+      $_data = array_merge(array('trigger' => array('type' => 'view', 'route' => &$_route, 'output' => &$content)), array('data' => &$this->data));
+      $trigger = new OCMTrigger(OCModify::$instance->registry);
+
+      // Trigger the pre events
+      if ($_result = $trigger->execute('before', 'view/' . $_route, $_data)) {
+        return $_result;
+      }
+
+      extract($this->data);]]></add>
+    </operation>
+    <operation>
+      <search position="replace"><![CDATA[return $content;]]></search>
+      <add><![CDATA[// Trigger the post events
+      if ($_result = $trigger->execute('after', 'view/' . $_route, $_data)) {
+        return $_result;
+      }
+
+      return $content;]]></add>
+    </operation>
+  </file>
+
+  <!-- Patch action, add getId() -->
+  <file name="system/engine/action.php">
+    <operation>
+      <search position="replace"><![CDATA[public function __construct]]></search>
+      <add><![CDATA[public function getId() {
+    return preg_replace('#^' . preg_quote(DIR_APPLICATION) . 'controller/(.*)\.php$#', '${1}', $this->file);
+  }
+
+	public function __construct]]></add>
+    </operation>
+  </file>
+</modification>

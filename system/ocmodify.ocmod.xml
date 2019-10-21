@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+  <name>OcModify Framework</name>
+  <code>default</code>
+  <version>1.1.4</version>
+  <author>Mumtoz Kodirov</author>
+
+  <!-- Registry proxy -->
+  <file path="system/engine/registry.php">
+    <operation>
+      <search><![CDATA[private $data = array();]]></search>
+      <add position="replace"><![CDATA[private $data = array();
+
+  public function __construct() {
+    // Startup ocmodify engine
+    require_once (DIR_SYSTEM . 'ocmodify/startup.php');
+
+    // Bootup ocmodify framework
+    ocmBootup($this);
+  }]]></add>
+    </operation>
+    <operation>
+      <search regex="true"><![CDATA[#return\s+\(isset\(\$this->data\[\$key\]\)\s+\?\s+\$this->data\[\$key\]\s+\:\s+null\);#i]]></search>
+      <add position="replace"><![CDATA[return OCModify::ocmGetOverride($this->data, $key);]]></add>
+    </operation>
+    <operation>
+      <search regex="true"><![CDATA[#\$this->data\[\$key\]\s+=\s+\$value;#i]]></search>
+      <add position="replace"><![CDATA[OCModify::ocmSetOverride($this->data, $key, $value);]]></add>
+    </operation>
+  </file>
+
+  <!-- Startup -->
+  <file path="system/engine/{front.php,router.php}">
+    <operation>
+      <search><![CDATA[$this->error = $error;]]></search>
+      <add position="replace"><![CDATA[ocmStartup($this->registry);
+
+    $this->error = $error;]]></add>
+    </operation>
+  </file>
+
+  <!-- Template trigger -->
+  
+  
+  <!-- Action trigger -->
+  <file path="system/engine/action.php">
+    <operation min="2.2">
+      <search regex="true"><![CDATA[#return\s+call_user_func_array\(array\(\$controller,\s+\$this->method\),\s+\$args\);#is]]></search>
+      <add position="replace"><![CDATA[return OCMAction::instance($this->route . '/' . $this->method)->execute($registry, $args);]]></add>
+    </operation>
+    <operation max="2.2">
+      <search regex="true"><![CDATA[#return\s+call_user_func\(array\(\$controller,\s+\$this->method\),\s+\$this->args\);#is]]></search>
+      <add position="replace"><![CDATA[$args = array(&$this->args);
+        return OCMAction::instance(ocmGetRouteByFile($this->file) . '/' . $this->method)->execute($registry, $args);]]></add>
+    </operation>
+  </file>
+
+  <!-- Loader trigger for 2.1 -->
+  
+</modification>

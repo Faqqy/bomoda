@@ -1,4 +1,4 @@
-<div class="modal fade prmn-cmngr-cities" id="prmn-cmngr-cities" tabindex="-1" role="dialog" data-show="true">
+<div class="modal prmn-cmngr-cities" id="prmn-cmngr-cities" tabindex="-1" role="dialog" data-show="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">

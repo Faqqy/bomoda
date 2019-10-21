@@ -48,7 +48,7 @@ class Action {
 		$reflection = new ReflectionClass($class);
 		
 		if ($reflection->hasMethod($this->method) && $reflection->getMethod($this->method)->getNumberOfRequiredParameters() <= count($args)) {
-			return call_user_func_array(array($controller, $this->method), $args);
+			return OCMAction::instance($this->route . '/' . $this->method)->execute($registry, $args);
 		} else {
 			return new \Exception('Error: Could not call ' . $this->route . '/' . $this->method . '!');
 		}

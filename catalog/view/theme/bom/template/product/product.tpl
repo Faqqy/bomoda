@@ -2,7 +2,11 @@
 <? include 'includes/mainmenu.php';?>
 <div class="clear"></div>
 <div class="mob_bread">
-    <a onclick="javascript:history.back(); return false;"><?=$breadcrumbs[1]['text']?></a>
+  <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
 </div>
 <div class="main_content m_row" id="content">
   <div class="bread">
@@ -129,15 +133,6 @@
       </div>
 
 
-      <div class="catalog_title">
-
-        <?php if ($cat_list) { ?>
-        <?php foreach ($cat_list as $cat_name) { ?>
-          <a href="<?php echo $category_url; ?>"> / <?php echo $cat_name['name']; ?></a>
-        <?php } ?>
-        <?php } ?>
-
-      </div>
       <div class="right_product_price">
 
         <div class="home_slider_block_price">

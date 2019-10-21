@@ -2,27 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66d2a274-6b19-44d2-947f-73392b93cd50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/bomodanew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/images/bomodanew.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/includes/dile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/javascript/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/slick.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/language/ru-ru/common/maintenance.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/language/ru-ru/common/maintenance.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/model/tool/simpleapimain.php" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/model/tool/simpleapimain.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/jquery.jcarousel-core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/jquery.jcarousel-core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/javascript/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/javascript/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/jquery.formstyler.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/jquery.formstyler.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/jquery.formstyler.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/simple.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/simple.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_customer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/checkout/simplecheckout_customer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/footer.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/footer.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/header.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/common/header.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/filter.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/filter.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/latest.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/extension/module/latest.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/category.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/stylesheet/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/product.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/bom/template/product/product.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-am.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/yo/menu/yo-am.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/stylesheet/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/progroman/city_manager/cities.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/view/theme/default/template/extension/module/progroman/city_manager/cities.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/system/storage/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/logs/ocmod.log" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/logs/ocmod.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/modification/system/engine/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/storage/modification/system/engine/action.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +37,13 @@
       <executable />
     </execution>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -44,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -124,7 +134,15 @@
       <workItem from="1569447073498" duration="765000" />
       <workItem from="1570132303711" duration="31000" />
       <workItem from="1570132365262" duration="1467000" />
-      <workItem from="1570390789570" duration="3076000" />
+      <workItem from="1570390789570" duration="3988000" />
+      <workItem from="1570467420873" duration="919000" />
+      <workItem from="1570484757446" duration="7285000" />
+      <workItem from="1570539239969" duration="1801000" />
+      <workItem from="1570648509017" duration="1784000" />
+      <workItem from="1570724233650" duration="1880000" />
+      <workItem from="1571485420660" duration="20000" />
+      <workItem from="1571485442419" duration="11670000" />
+      <workItem from="1571676012963" duration="33000" />
     </task>
     <servers />
   </component>

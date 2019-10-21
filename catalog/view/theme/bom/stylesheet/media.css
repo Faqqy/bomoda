@@ -820,13 +820,21 @@
     }
     .table_tabs_inside
     {
-        width:1000px;
+        width:100%;
     }
-    .table_tabs .tabs__caption
+
+    .slick-prev {
+        left: 40px;
+    }
+
+    .slick-next {
+        right: 40px;
+    }
+   /* .table_tabs .tabs__caption
     {
         overflow-x: scroll;
         overflow-y: hidden;
-    }
+    }*/
     .how_block_title img
     {
         display:block;

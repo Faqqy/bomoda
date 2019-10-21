@@ -1,0 +1,222 @@
+/* Multi checkbox */
+.bootstrap-ocm .well table td {
+  border-bottom: 1px dashed #ddd;
+}
+
+.bootstrap-ocm .well table td input[type=checkbox] {
+  vertical-align: sub;
+  margin: 0px 5px;
+}
+
+.bootstrap-ocm .well table td input[type=text] {
+  border-radius: 0px;
+  border: 0px;
+}
+
+.bootstrap-ocm .well table td input[type=text]:focus {
+  box-shadow: none;
+}
+
+.bootstrap-ocm .well table td label {
+  margin: 0px;
+  width: 100%;
+  padding: 4px 0px;
+}
+
+.bootstrap-ocm .well table tr:hover {
+  background-color: #eee;
+}
+
+.bootstrap-ocm .well .form-group + .form-group {
+  border-top: none !important;
+}
+
+/* Nav tabs*/
+.bootstrap-ocm .nav-tabs {
+  margin-bottom: 10px !important;
+}
+
+.bootstrap-ocm .nav-tabs li a {
+  outline: none;
+}
+
+.bootstrap-ocm .nav-tabs .buttons {
+  display: none;
+}
+
+#ocm-buttons {
+  margin-right: 5px;
+  /*display: none;*/
+}
+
+/* Table */
+.bootstrap-ocm .table-responsive {
+  overflow-x: visible;
+}
+
+/* Alert */
+.modal-body .alert {
+  margin: 2px 0px;
+}
+
+.bootstrap-ocm h3 i, .bootstrap-ocm h4 i, .bootstrap-ocm .alert i, .modal-body .alert i {
+  margin-right: 5px;
+}
+
+/* Filter */
+.bootstrap-ocm #form-filter select {
+  color: #888;
+}
+
+.bootstrap-ocm #form-filter select option {
+  color: #555;
+}
+
+.bootstrap-ocm .well .form-group {
+  padding: 5px 15px;
+  border: none;
+}
+
+/* Heading */
+.bootstrap-ocm h1, .bootstrap-ocm h2, .bootstrap-ocm h3, .bootstrap-ocm h4, .bootstrap-ocm h5, .bootstrap-ocm h6, .bootstrap-ocm p {
+  margin-top: 0 !important;
+}
+
+.bootstrap-ocm .page-header {
+  vertical-align: middle;
+  margin: 15px 0;
+  padding: 0;
+  border-bottom: none;
+}
+
+.bootstrap-ocm .page-header h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #848484;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* Breadcrumbs */
+.bootstrap-ocm .breadcrumb {
+  width: 100%;
+  margin: 5px 0px;
+  padding: 0px 4px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.bootstrap-ocm .breadcrumb > li {
+  margin: 8px 4px;
+}
+
+.bootstrap-ocm .breadcrumb > li > a {
+  font-size: 12px;
+  color: #1e91cf;
+  line-height: 1.7;
+}
+
+.bootstrap-ocm .breadcrumb > li.pull-right {
+  padding: 0px;
+  margin: 5px 0px;
+}
+
+.bootstrap-ocm .breadcrumb > li.pull-right:before, .bootstrap-ocm .breadcrumb > li.pull-right li:before {
+  content: none;
+}
+
+.bootstrap-ocm .breadcrumb > li.pull-right button {
+  padding: 3px 9px;
+  font-size: 12px;
+}
+
+.bootstrap-ocm .breadcrumb > li.pull-right li > a {
+  margin-bottom: 0px;
+}
+
+/* Dropdown */
+.bootstrap-ocm .breadcrumb ul.dropdown-menu {
+  padding: 0px;
+}
+
+.bootstrap-ocm .breadcrumb ul.dropdown-menu li {
+  padding: 3px;
+}
+
+.bootstrap-ocm .breadcrumb ul.dropdown-menu li a {
+  padding: 5px;
+}
+
+/* Form */
+.bootstrap-ocm .form-group {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+}
+
+.bootstrap-ocm .form-group + .form-group {
+  border-top: 1px solid #ededed;
+}
+
+.bootstrap-ocm .pagination {
+  margin: 0;
+  border-top: none;
+}
+
+.bootstrap-ocm label.radio-button.unsigned:hover, .bootstrap-ocm label.radio-button.unsigned.active, .bootstrap-ocm label.radio-button.unsigned.active:hover {
+  background-color: #1e91cf;
+  border-color: #1978ab;
+  color: #fff;
+}
+
+.bootstrap-ocm label.radio-button:hover, .bootstrap-ocm label.radio-button.active, .bootstrap-ocm label.radio-button.active:hover {
+  background-color: #8fbb6c;
+  border-color: #7aae50;
+  color: #fff;
+}
+
+.bootstrap-ocm label.radio-button.disable.active, .bootstrap-ocm label.radio-button.disable:hover {
+  background-color: #f56b6b;
+  border-color: #f24545;
+  color: #fff;
+}
+
+/* Modal */
+.modal {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+  z-index: 10000;
+}
+
+/* Custom */
+.bootstrap-ocm .form-data {
+  border-right: 2px solid #ddd;
+}
+
+.bootstrap-ocm .form-help {
+  padding: 15px 0px;
+  padding-left: 10px;
+  margin-left: -2px;
+  border-left: 2px solid #ddd;
+}
+
+.table-mini td {
+  padding: 2px 8px !important;
+}
