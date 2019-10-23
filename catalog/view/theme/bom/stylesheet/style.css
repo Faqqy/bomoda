@@ -2860,6 +2860,8 @@ width: 4px;
 	border-top-left-radius: 2px;
 }
 
+
+
 .tabs__content {
 	display: none; /* по умолчанию прячем все блоки */
 }
@@ -2867,12 +2869,21 @@ width: 4px;
 	display: block; /* по умолчанию показываем нужный блок */
 }
 
-.tabs__content1 {
-	display: none; /* по умолчанию прячем все блоки */
+.tabs__content2 {
+	opacity: 0;
+	height: 0;
 }
-.tabs__content1.active {
-	display: block; /* по умолчанию показываем нужный блок */
+
+.tabs__content2.active {
+	opacity: 1;
+	height: auto;
 }
+
+
+
+
+
+
 
 .content_article
 {
@@ -2982,7 +2993,7 @@ width: 4px;
 }
 
 .tabs__caption_border{
-	border: 1px solid #000;
+	border: 1px solid #222;
 	transition: .25s ease-in-out;
 }
 .tabs__caption_border.active{
@@ -2990,9 +3001,10 @@ width: 4px;
 	color: #fff;
 }
 .tabs__caption_border:hover{
-	background: #000;
+	background: #222;
 	color:#fff;
 }
+
 
 .table_tabs .tabs__content
 {
@@ -3011,6 +3023,7 @@ width: 4px;
 	vertical-align: middle;
 	border: 1px solid #d7d7d7;
 }
+
 
 /* .table_tabs table th
 {
